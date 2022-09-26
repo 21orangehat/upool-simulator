@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useModalContext } from "../context/modal/modalContext";
 import SpoolLogo from "../assets/images/upool_logo.png";
 import { DangerButton } from "../common/buttons";
+import { Heading } from "../common/atomic";
 
 const NavbarContainer = styled.div`
   display: flex;
@@ -60,6 +61,12 @@ const Gitcoin = styled.div`
   }
 `;
 
+const WarningWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  color: white;
+`
+
 const Navbar = () => {
   const { dispatch } = useModalContext();
 
@@ -68,6 +75,22 @@ const Navbar = () => {
       <Logo>
         <span><img src={SpoolLogo} alt="Simulator Pool" width="45%" />Simulator</span>
       </Logo>
+      <WarningWrapper>
+        <Heading>
+          Doe e ajude a suportar o projeto [Ethereum, Polygon, Optimism, Arbitrum ou Celo]:
+          <div>
+            <small>0x4cb1F59c8ba09fED2BCE70943d2ad5dEc599e7d8</small>
+          </div>
+        </Heading>
+      </WarningWrapper>
+      <WarningWrapper>
+        <Heading>
+          Sugestões e Feedback:
+          <div>
+            <small>info@orangehat.wtf</small>
+          </div>
+        </Heading>
+      </WarningWrapper>
       <Menubar>
       <a href="https://pools.orangehat.wtf" target="_blank" rel="noreferrer">
         <Gitcoin>

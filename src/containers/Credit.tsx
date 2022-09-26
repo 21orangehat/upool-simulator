@@ -35,7 +35,7 @@ const Credit = () => {
         <a href="https://github.com/21orangehat/upool-simulator" target="_blank" rel="noreferrer">
               Orange Hat
         </a>
-         com base no projeto original de {" "}
+         &nbsp;com base no projeto original de {" "}
         <a href="https://github.com/chunza2542/uniswap.fish" 
           target="_blank"
           rel="noreferrer">
