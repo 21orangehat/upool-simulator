@@ -4,6 +4,7 @@ export interface Network {
   desc: string;
   logoURI: string;
   disabled?: boolean;
+  isNew?: boolean;
   subgraphEndpoint: string;
 }
 export const NETWORKS: Network[] = [
@@ -32,6 +33,16 @@ export const NETWORKS: Network[] = [
     logoURI: "https://optimistic.etherscan.io/images/brandassets/optimism.svg",
     subgraphEndpoint:
       "https://api.thegraph.com/subgraphs/name/ianlapham/optimism-post-regenesis",
+  },
+  {
+    id: "celo",
+    name: "Celo",
+    desc: "Celo Mainnet",
+    disabled: false,
+    logoURI: "celo.svg",
+    isNew: true,
+    subgraphEndpoint:
+      "https://api.thegraph.com/subgraphs/name/jesse-sawa/uniswap-celo",
   },
   {
     id: "arbitrum",

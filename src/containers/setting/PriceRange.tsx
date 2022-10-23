@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { useEffect } from "react";
 import styled from "styled-components";
 import { Heading } from "../../common/atomic";
 import { useAppContext } from "../../context/app/appContext";
 import { AppActionType } from "../../context/app/appReducer";
 import { divideArray, findMax, findMin } from "../../utils/math";
+import { ScreenWidth } from "../../utils/styled";
 import Slider from "./Slider";
 
 const Group = styled.div`
@@ -43,6 +45,11 @@ const InputGroup = styled.div`
     &:hover {
       background: white;
     }
+
+    @media only screen and (max-width: ${ScreenWidth.TABLET}px) {
+      width: 17.5px;
+      height: 17.5px;
+    }
   }
   & .btn-left {
     & span {
@@ -81,6 +88,9 @@ const MinMaxPriceContainer = styled.div`
 
 const PriceRange = () => {
   const { state, dispatch } = useAppContext();
+  const [activePriceAssumptionSlider, setActivePriceAssumptionSlider] =
+    useState(0);
+  const [priceRangeSlider, setPriceRangeSlider] = useState([0, 0]);
 
   const prices = divideArray(
     (state.token1PriceChart?.prices || []).map((p) => p.value),
@@ -99,7 +109,7 @@ const PriceRange = () => {
 
   const min = Math.max(0, _min - margin);
   const max = _max + margin;
-  const step = (max - min) / 10000000;
+  const step = 0.000001;
   const btnStep = ((max - min) * 2) / 100; // 2%
 
   useEffect(() => {
@@ -109,11 +119,25 @@ const PriceRange = () => {
       type: AppActionType.UPDATE_PRICE_ASSUMPTION_VALUE,
       payload: currentPrice,
     });
+
     dispatch({
       type: AppActionType.UPDATE_PRICE_RANGE,
       payload: [_min, _max],
     });
   }, [state.pool]);
+
+  useEffect(() => {
+    // percent = 100 * (price - min) / (max - min)
+    setActivePriceAssumptionSlider(
+      (100 * (state.priceAssumptionValue - min)) / (max - min)
+    );
+  }, [state.priceAssumptionValue]);
+  useEffect(() => {
+    setPriceRangeSlider([
+      (100 * (state.priceRangeValue[0] - min)) / (max - min),
+      (100 * (state.priceRangeValue[1] - min)) / (max - min),
+    ]);
+  }, [state.priceRangeValue]);
 
   return (
     <div>
@@ -149,7 +173,7 @@ const PriceRange = () => {
             >
               <span>+</span>
             </div>
-            <span>Preço Min</span>
+            <span>Preço Mínimo</span>
             <Input
               value={state.priceRangeValue[0]}
               type="number"
@@ -167,6 +191,7 @@ const PriceRange = () => {
               {state.token0?.symbol} por {state.token1?.symbol}
             </span>
           </InputGroup>
+
           <InputGroup>
             <div
               className="btn btn-left"
@@ -196,7 +221,7 @@ const PriceRange = () => {
             >
               <span>+</span>
             </div>
-            <span>Preço Max</span>
+            <span>Preço Máximo</span>
             <Input
               value={state.priceRangeValue[1]}
               type="number"
@@ -217,14 +242,19 @@ const PriceRange = () => {
         </MinMaxPriceContainer>
         <Slider
           thumbClassName="thumb-green"
-          value={state.priceRangeValue}
-          min={min}
-          max={max}
+          value={priceRangeSlider}
+          min={0}
+          max={100}
           step={step}
           onChange={(value, _) => {
+            setPriceRangeSlider(value);
+
             dispatch({
               type: AppActionType.UPDATE_PRICE_RANGE,
-              payload: value,
+              payload: [
+                min + ((max - min) * value[0]) / 100,
+                min + ((max - min) * value[1]) / 100,
+              ],
             });
           }}
         />
@@ -254,9 +284,10 @@ const PriceRange = () => {
           >
             <span>+</span>
           </div>
-          <span>Preço atual no momento da consulta</span>
+
+          <span>Preço Atual</span>
           <Input
-            value={(state.priceAssumptionValue).toFixed(5) || 0}
+            value={state.priceAssumptionValue || 0}
             type="number"
             placeholder="0.0"
             onChange={(e) => {
@@ -274,14 +305,16 @@ const PriceRange = () => {
         </InputGroup>
         <Slider
           thumbClassName="thumb-red"
-          value={state.priceAssumptionValue}
-          min={min}
-          max={max}
+          value={activePriceAssumptionSlider}
+          min={0}
+          max={100}
           step={step}
           onChange={(value, _) => {
+            setActivePriceAssumptionSlider(value);
+
             dispatch({
               type: AppActionType.UPDATE_PRICE_ASSUMPTION_VALUE,
-              payload: value,
+              payload: min + ((max - min) * value) / 100,
             });
           }}
         />

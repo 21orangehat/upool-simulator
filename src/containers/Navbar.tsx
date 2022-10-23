@@ -1,9 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import styled from "styled-components";
-import { useModalContext } from "../context/modal/modalContext";
-import SpoolLogo from "../assets/images/upool_logo.png";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { DangerButton } from "../common/buttons";
-import { Heading } from "../common/atomic";
+import { ScreenWidth } from "../utils/styled";
+// import { useModalContext } from "../context/modal/modalContext";
+// import { ModalActionType } from "../context/modal/modalReducer";
 
 const NavbarContainer = styled.div`
   display: flex;
@@ -15,21 +18,35 @@ const NavbarContainer = styled.div`
   width: 100vw;
   top: 0;
   z-index: 9999;
+
+  @media only screen and (max-width: ${ScreenWidth.TABLET}px) {
+    padding: 15px;
+  }
 `;
 
 const Logo = styled.h1`
-  color: white;
   margin: 0;
-  font-weight: bold;
-  font-size: 1.2rem;
-  font-weight: 500;
   cursor: pointer;
   display: flex;
   align-items: center;
 
+  & > h1 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    @media only screen and (max-width: 450px) {
+      display: none;
+    }
+  }
+
   & > span {
     font-size: 1.4rem;
     margin-right: 7px;
+
+    @media only screen and (max-width: 450px) {
+      font-size: 1.8rem;
+    }
   }
 `;
 
@@ -49,6 +66,7 @@ const Menubar = styled.a`
 `;
 const Gitcoin = styled.div`
   position: relative;
+  margin-right: -15px;
 
   & p {
     font-size: 0.7em;
@@ -61,44 +79,51 @@ const Gitcoin = styled.div`
   }
 `;
 
-const WarningWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  color: white;
-`
-
 const Navbar = () => {
-  const { dispatch } = useModalContext();
+  // const { dispatch } = useModalContext();
 
   return (
     <NavbarContainer>
       <Logo>
-        <span><img src={SpoolLogo} alt="Simulator Pool" width="45%" />Simulator</span>
+        <span>🦄</span> <h1>UniswapCalculator</h1>
       </Logo>
-      <WarningWrapper>
-        <Heading>
-          Doe e ajude a suportar o projeto [Ethereum, Polygon, Optimism, Arbitrum ou Celo]:
-          <div>
-            <small>0x4cb1F59c8ba09fED2BCE70943d2ad5dEc599e7d8</small>
-          </div>
-        </Heading>
-      </WarningWrapper>
-      <WarningWrapper>
-        <Heading>
-          Sugestões e Feedback:
-          <div>
-            <small>info@orangehat.wtf</small>
-          </div>
-        </Heading>
-      </WarningWrapper>
       <Menubar>
-      <a href="https://pools.orangehat.wtf" target="_blank" rel="noreferrer">
-        <Gitcoin>
-          <DangerButton>
-            <span>Voltar à listagem de pools</span>
-          </DangerButton>
-        </Gitcoin>
-      </a>
+        <a
+          href="https://twitter.com/uniswapdotfish"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a
+          href="https://github.com/chunza2542/uniswap.fish"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a href="mailto:hello@uniswap.fish">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
+        <a
+          href="https://gitcoin.co/grants/4203/uniswap-calculator-v3"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Gitcoin>
+            <DangerButton
+            // onClick={() => {
+            //   dispatch({
+            //     type: ModalActionType.SET_DONATE_MODAL_STATE,
+            //     payload: true,
+            //   });
+            // }}
+            >
+              <span>Donate</span>
+            </DangerButton>
+            {/* <p>🔥 Support our project on Gitcoin GR15!</p> */}
+          </Gitcoin>
+        </a>
       </Menubar>
     </NavbarContainer>
   );

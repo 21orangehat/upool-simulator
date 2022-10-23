@@ -1,8 +1,10 @@
 import React from "react";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
 const CreditContainer = styled.div`
-  padding: 10px 15px;
+  padding: 50px 15px;
   text-align: center;
   color: #bbb;
   font-size: 0.8rem;
@@ -31,16 +33,40 @@ const Credit = () => {
   return (
     <CreditContainer>
       <div>
-        Desenvolvido por {" "} 
-        <a href="https://github.com/21orangehat/upool-simulator" target="_blank" rel="noreferrer">
-              Orange Hat
-        </a>
-         &nbsp;com base no projeto original de {" "}
-        <a href="https://github.com/chunza2542/uniswap.fish" 
+        Supported by{" "}
+        <a
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+          href="https://mirror.xyz/devi731.eth/Dy705L0V2MufftJ-x4zgAhfILw2yE18RY0lNsVN3mEA"
+        >
+          Uniswap Foudation
+        </a>
+        . Crafted with <FontAwesomeIcon icon={faHeart} /> by{" "}
+        <a
+          rel="noreferrer"
+          href="https://twitter.com/chunza2542"
+          target="_blank"
+        >
           @chunza2542
         </a>
+        , Happy Uniswapping 🦄!!
+      </div>
+      <div>
+        <a
+          href="https://github.com/chunza2542/uniswap.fish"
+          rel="noreferrer"
+          target="_blank"
+        >
+          How it works?
+        </a>
+        <a
+          href="https://github.com/chunza2542/uniswap.fish"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Source Code (Github)
+        </a>
+        <a href="mailto:hello@uniswap.fish">Contact: hello@uniswap.fish</a>
       </div>
     </CreditContainer>
   );

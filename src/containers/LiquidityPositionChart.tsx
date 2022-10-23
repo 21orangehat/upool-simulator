@@ -7,14 +7,21 @@ import { Tick } from "../repos/uniswap";
 import { getPriceFromTick, getTickFromPrice } from "../utils/liquidityMath";
 import { AppActionType } from "../context/app/appReducer";
 import { divideArray, findMax, findMin } from "../utils/math";
+import { ScreenWidth } from "../utils/styled";
 
 const Container = styled.div`
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
+  @media only screen and (max-width: ${ScreenWidth.MOBILE}px) {
+    border-radius: 12px;
+  }
 `;
 const Padding = styled.div`
   padding: 16px;
+  @media only screen and (max-width: ${ScreenWidth.MOBILE}px) {
+    padding: 12px;
+  }
 `;
 const WrappedHeader = styled.div`
   display: flex;
@@ -78,10 +85,8 @@ const LiquidityPositionChart = () => {
           Number(ticks[i].liquidityNet),
       });
     }
-    const avg = liquidity.reduce((a, b) => a + b.y, 0) / liquidity.length;
     const result = liquidity.filter(
-      (b) =>
-        avg / b.y <= 15 && b.y > 0 && b.x0 >= minimumTick && b.x0 <= maximumTick
+      (b) => b.y > 0 && b.x0 >= minimumTick && b.x0 <= maximumTick
     );
     if (result.length === 0) {
       return { minTick: 0, maxTick: 0 };
@@ -94,7 +99,7 @@ const LiquidityPositionChart = () => {
       return;
 
     let width = 500;
-    let height = 240;
+    let height = 290;
     if (refElement.current) {
       width = refElement.current.offsetWidth;
     }

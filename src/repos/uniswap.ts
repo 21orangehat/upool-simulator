@@ -1,16 +1,17 @@
 import axios from "axios";
-import { NETWORKS } from "../common/types";
+import { Network, NETWORKS } from "../common/types";
 import { getTokenLogoURL, sortToken } from "../utils/helper";
+import lscache from "../utils/lscache";
 
-let subgraphEndpoint = NETWORKS[1].subgraphEndpoint; // padrão era 0 (alterado ethereum para polygon)
+export let currentNetwork = NETWORKS[0];
 
-export const updateSubgraphEndpoint = (newEndpoint: string) => {
-  subgraphEndpoint = newEndpoint;
+export const updateNetwork = (network: Network) => {
+  currentNetwork = network;
 };
 
 const queryUniswap = async (query: string): Promise<any> => {
   const { data } = await axios({
-    url: subgraphEndpoint,
+    url: currentNetwork.subgraphEndpoint,
     method: "post",
     data: {
       query,
@@ -43,10 +44,9 @@ export interface Tick {
   price0: string;
   price1: string;
 }
-const _getPoolTicks = async (
+const _getPoolTicksByPage = async (
   poolAddress: string,
-  result: Tick[],
-  page: number = 0
+  page: number
 ): Promise<Tick[]> => {
   const res = await queryUniswap(`{
     ticks(first: 1000, skip: ${
@@ -59,16 +59,26 @@ const _getPoolTicks = async (
     }
   }`);
 
-  if (res === undefined || res.ticks.length === 0) {
-    return result;
-  }
-
-  result = [...result, ...res.ticks];
-  return await _getPoolTicks(poolAddress, result, page + 1);
+  return res.ticks;
 };
 export const getPoolTicks = async (poolAddress: string): Promise<Tick[]> => {
-  const ticks = await _getPoolTicks(poolAddress, []);
-  return ticks;
+  const PAGE_SIZE = 3;
+  let result: Tick[] = [];
+  let page = 0;
+  while (true) {
+    const [pool1, pool2, pool3] = await Promise.all([
+      _getPoolTicksByPage(poolAddress, page),
+      _getPoolTicksByPage(poolAddress, page + 1),
+      _getPoolTicksByPage(poolAddress, page + 2),
+    ]);
+
+    result = [...result, ...pool1, ...pool2, ...pool3];
+    if (pool1.length === 0 || pool2.length === 0 || pool3.length === 0) {
+      break;
+    }
+    page += PAGE_SIZE;
+  }
+  return result;
 };
 
 export interface V3Token {
@@ -79,12 +89,21 @@ export interface V3Token {
   logoURI: string;
   decimals: string;
 }
-const _getTokenList = async (
-  result: V3Token[],
-  page: number = 0
-): Promise<V3Token[]> => {
+export const getTopTokenList = async (): Promise<V3Token[]> => {
+  const cacheKey = `${currentNetwork.id}_getTopTokenList`;
+  const cacheData = lscache.get(cacheKey);
+  const searchTokenPageItems = localStorage.getItem(
+    `SearchTokenPage_${currentNetwork.id}_tokens`
+  );
+  if (cacheData) {
+    if (searchTokenPageItems !== null) {
+      return [...cacheData, ...JSON.parse(searchTokenPageItems)];
+    }
+    return cacheData;
+  }
+
   const res = await queryUniswap(`{
-    tokens(skip: ${page * 1000}, first: 1000, orderBy: id) {
+    tokens(skip: 0, first: 500, orderBy: volumeUSD, orderDirection: desc) {
       id
       name
       symbol
@@ -94,15 +113,11 @@ const _getTokenList = async (
   }`);
 
   if (res === undefined || res.tokens.length === 0) {
-    return result;
+    return [];
   }
 
-  result = [...result, ...res.tokens];
-  return await _getTokenList(result, page + 1);
-};
-export const getTokenList = async (): Promise<V3Token[]> => {
-  const tokens = await _getTokenList([]);
-  return tokens
+  const tokens = res.tokens as V3Token[];
+  let result = tokens
     .map((token) => {
       token.logoURI = getTokenLogoURL(token.id);
       return token;
@@ -120,8 +135,32 @@ export const getTokenList = async (): Promise<V3Token[]> => {
       }
       return token;
     })
-    .filter((token) => token.symbol.length < 30)
-    .sort((a, b) => Number(b.volumeUSD) - Number(a.volumeUSD));
+    .filter((token) => token.symbol.length < 30);
+
+  lscache.set(cacheKey, result, 10);
+  if (searchTokenPageItems !== null) {
+    result = [...result, ...JSON.parse(searchTokenPageItems)];
+  }
+
+  return result;
+};
+
+export const getToken = async (id: string): Promise<V3Token> => {
+  const res = await queryUniswap(`{
+    token(id: "${id.toLowerCase()}") {
+      id
+      name
+      symbol
+      volumeUSD
+      decimals
+    }
+  }`);
+
+  if (res.token !== null) {
+    res.token.logoURI = getTokenLogoURL(res.token.id);
+  }
+
+  return res.token;
 };
 
 export interface Pool {

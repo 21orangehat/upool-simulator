@@ -84,6 +84,7 @@ const SugestaoRange = () => {
       type: AppActionType.UPDATE_PRICE_RANGE,
       payload: [_min, _max],
     });
+    // eslint-disable-next-line
   }, [state.pool]);
 
   return (

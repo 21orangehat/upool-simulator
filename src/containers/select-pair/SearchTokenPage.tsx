@@ -1,32 +1,45 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { V3Token } from "../../repos/uniswap";
+import { currentNetwork, getToken, V3Token } from "../../repos/uniswap";
 import ReactLoading from "react-loading";
-import { useEffect } from "react";
-import Fuse from "fuse.js";
+import Web3 from "web3";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopy } from "@fortawesome/free-solid-svg-icons";
+import ReactTooltip from "react-tooltip";
 
 const Container = styled.div`
   width: 370px;
   padding: 15px;
+
+  @media only screen and (max-width: 400px) {
+    width: calc(100vw - 30px);
+    padding: 10px;
+  }
+`;
+const NotFound = styled.div`
+  color: #777;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 30px;
 `;
 const SearchInput = styled.input`
   border: 0;
   outline: none;
   width: 100%;
   padding: 12px 12px;
-  border-radius: 12px;
+  border-radius: 9px;
   font-size: 1rem;
   color: white;
-  background: rgba(255, 255, 255, 0.1);
-  cursor: pointer;
+  background: rgba(255, 255, 255, 0.075);
+  cursor: pointerk;
   transition: 0.3s;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.1);
   }
 
   &:focus {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.125);
   }
 `;
 const Divider = styled.div`
@@ -51,6 +64,10 @@ const TokenItem = styled.div`
   align-items: center;
   transition: 0.3s;
   padding: 5px 15px;
+
+  @media only screen and (max-width: 400px) {
+    padding: 5px 10px;
+  }
 
   &:hover {
     background: rgba(255, 255, 255, 0.1);
@@ -77,54 +94,128 @@ const TokenItem = styled.div`
     }
   }
 `;
+const TokenItemWrapper = styled.div`
+  position: relative;
 
-const MAX_NUMBER_PER_PAGE = 100;
+  & > button {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+
+    border: 0;
+    color: #777;
+    cursor: pointer;
+    font-size: 1.075rem;
+
+    &:hover {
+      color: #999;
+      background: rgba(255, 255, 255, 0.075);
+    }
+    &:active {
+      color: #ccc;
+      background: rgba(255, 255, 255, 0.125);
+    }
+
+    @media only screen and (max-width: 400px) {
+      right: 10px;
+    }
+  }
+`;
+
 interface SearchTokenPageProps {
   tokens: V3Token[];
   selectToken: (token: V3Token) => void;
+  refetchTokens: any;
 }
-const SearchTokenPage = ({ tokens, selectToken }: SearchTokenPageProps) => {
-  const [filteredTokens, setFilteredTokens] = useState<V3Token[]>([]);
+const SearchTokenPage = ({
+  tokens: _tokens,
+  selectToken,
+  refetchTokens,
+}: SearchTokenPageProps) => {
+  const [tokens, setTokens] = useState<V3Token[]>(_tokens);
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [timeoutId, setTimeoutId] = useState<NodeJS.Timeout | null>(null);
+  const [isTokenNotFound, setIsTokenNotFound] = useState<boolean>(false);
+  const [filterCSSStyle, setFilterCSSStyle] = useState<string>(``);
+  const [searchDataFilter, setSearchDataFilter] = useState<string[]>([]);
+  const [searchValue, setSearchValue] = useState<string>("");
 
   useEffect(() => {
-    setFilteredTokens(tokens.slice(0, MAX_NUMBER_PER_PAGE));
+    setTokens(_tokens);
+  }, [_tokens]);
+
+  useEffect(() => {
+    setSearchDataFilter(
+      tokens.map(
+        (token) =>
+          `${token.id.toLowerCase()} ${token.symbol.toLowerCase()} ${token.name.toLowerCase()}`
+      )
+    );
   }, [tokens]);
 
-  const handleSearch = (value: string) => {
-    timeoutId && clearTimeout(timeoutId);
-    value = value.trim();
+  const handleSearch = async (value: string) => {
+    setIsTokenNotFound(false);
+    setIsLoading(false);
+    setSearchValue(value);
 
-    if (value === "") {
-      setFilteredTokens(tokens.slice(0, MAX_NUMBER_PER_PAGE));
-      setIsLoading(false);
-      return;
+    value = value.trim().toLowerCase();
+    if (!value) {
+      setFilterCSSStyle(``);
+    } else {
+      setFilterCSSStyle(
+        `.token-item:not([data-filter*="${value}"]) { display: none }`
+      );
+
+      const count = searchDataFilter.filter(
+        (x) => x.indexOf(value) !== -1
+      ).length;
+      if (count > 0) return;
+
+      if (Web3.utils.isAddress(value)) {
+        setIsLoading(true);
+        const token = await getToken(value);
+        setIsLoading(false);
+
+        if (!token) {
+          setIsTokenNotFound(true);
+          return;
+        }
+
+        setIsTokenNotFound(false);
+        setTokens([...tokens, token]);
+
+        // save token in localStorage for later use
+        const key = `SearchTokenPage_${currentNetwork.id}_tokens`;
+        const items = localStorage.getItem(key);
+        if (items === null) {
+          localStorage.setItem(key, JSON.stringify([token]));
+        } else {
+          localStorage.setItem(
+            key,
+            JSON.stringify([...JSON.parse(items), token])
+          );
+        }
+        refetchTokens();
+
+        return;
+      }
+
+      setIsTokenNotFound(true);
     }
-
-    setIsLoading(true);
-
-    const _timeoutId = setTimeout(() => {
-      const fuse = new Fuse(tokens, {
-        includeScore: true,
-        keys: ["id", "name", "symbol"],
-      });
-
-      setFilteredTokens(fuse.search(value).map((d) => d.item) as V3Token[]);
-
-      timeoutId && clearTimeout(timeoutId);
-      setIsLoading(false);
-    }, 1000);
-
-    setTimeoutId(_timeoutId);
   };
 
   return (
     <>
+      <style>{filterCSSStyle}</style>
+      <ReactTooltip place="left" />
       <Container>
         <SearchInput
           onChange={(e) => handleSearch(e.target.value)}
-          placeholder="Busque pelo nome ou contrato"
+          placeholder="Search name or paste address"
         />
       </Container>
       <Divider />
@@ -140,20 +231,58 @@ const SearchTokenPage = ({ tokens, selectToken }: SearchTokenPageProps) => {
       )}
       {!isLoading && tokens.length > 0 && (
         <Scrollable>
-          {filteredTokens.map((token) => {
+          {tokens.map((token) => {
             return (
-              <TokenItem
-                onClick={() => selectToken(token)}
+              <TokenItemWrapper
                 id={`${token.symbol}_${token.name}_${token.id}`}
+                data-filter={`${token.id.toLowerCase()} ${token.symbol.toLowerCase()} ${token.name.toLowerCase()}`}
+                className="token-item"
               >
-                <img src={token.logoURI} alt={token.name} />
-                <div>
-                  <h5>{token.symbol}</h5>
-                  <span>{token.name}</span>
-                </div>
-              </TokenItem>
+                <TokenItem onClick={() => selectToken(token)}>
+                  <img
+                    src={token.logoURI}
+                    alt={token.name}
+                    onError={(e: any) => {
+                      e.target.src =
+                        "https://friconix.com/png/fi-cnsuxl-question-mark.png";
+                    }}
+                  />
+                  <div>
+                    <h5>
+                      {token.symbol}
+                      {/* DEBUG: {getCoingeckoToken(token.id) !== null
+                      ? getCoingeckoToken(token.id)?.id
+                      : "NOT"} */}
+                    </h5>
+                    <span>
+                      {token.name.length >= 35
+                        ? `${token.name.slice(0, 35)}...`
+                        : token.name}
+                    </span>
+                  </div>
+                </TokenItem>
+                <button
+                  data-tip="Copy token address"
+                  onClick={() => {
+                    navigator.clipboard.writeText(token.id);
+                  }}
+                >
+                  <FontAwesomeIcon icon={faCopy} />
+                </button>
+              </TokenItemWrapper>
             );
           })}
+          {isTokenNotFound && (
+            <NotFound>
+              No results found.
+              {!Web3.utils.isAddress(searchValue) && (
+                <>
+                  <br />
+                  Try pasting the token address in the search bar.
+                </>
+              )}
+            </NotFound>
+          )}
         </Scrollable>
       )}
     </>

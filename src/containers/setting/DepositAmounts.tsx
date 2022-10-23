@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Heading } from "../../common/atomic";
 import Table from "../../common/Table";
@@ -73,7 +73,7 @@ const DepositAmounts = () => {
       <InputGroup>
         <span className="dollar">$</span>
         <DepositInput
-          value={state.depositAmountValue}
+          defaultValue={1000}
           type="number"
           placeholder="0.00"
           onChange={(e) => {
@@ -93,7 +93,7 @@ const DepositAmounts = () => {
           <img alt={state.token0?.name} src={state.token0?.logoURI} />{" "}
           <span>{state.token0?.symbol}</span>
         </Token>
-        <div>{amount1.toFixed(4)}</div>
+        <div>{amount1.toFixed(5)}</div>
         <div>${(amount1 * priceUSDY).toFixed(2)}</div>
       </Table>
       <Table>
@@ -101,7 +101,7 @@ const DepositAmounts = () => {
           <img alt={state.token1?.name} src={state.token1?.logoURI} />{" "}
           <span>{state.token1?.symbol}</span>
         </Token>
-        <div>{amount0.toFixed(4)}</div>
+        <div>{amount0.toFixed(5)}</div>
         <div>${(amount0 * priceUSDX).toFixed(2)}</div>
       </Table>
     </div>

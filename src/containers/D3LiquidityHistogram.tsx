@@ -1,6 +1,5 @@
-import React from "react";
 import * as d3 from "d3";
-import { findMax, findMin } from "../utils/math";
+import { findMax } from "../utils/math";
 import { getPriceFromTick } from "../utils/liquidityMath";
 
 export interface Bin {
@@ -43,8 +42,7 @@ class D3LiquidityHistogram {
     this.svg = d3
       .select(containerEl)
       .append("svg")
-      .attr("width", props.width)
-      .attr("height", props.height);
+      .attr("viewBox", `0 0 ${props.width} ${props.height}`);
 
     // add x axis
     const x = d3
@@ -228,11 +226,11 @@ class D3LiquidityHistogram {
               x0,
               this.props.token0Decimal,
               this.props.token1Decimal
-            ).toFixed(4)} ${this.token1Symbol}`
+            )} ${this.token1Symbol}`
           )
           .attr("x", this.x(x0) + 5)
           .attr("text-anchor", "left")
-          .attr("y", 45);
+          .attr("y", 5);
         focusTextToken1
           .html(
             `${this.token1Symbol}: ${(
@@ -242,11 +240,11 @@ class D3LiquidityHistogram {
                 this.props.token0Decimal,
                 this.props.token1Decimal
               )
-            ).toFixed(4)} ${this.token0Symbol}`
+            ).toFixed(6)} ${this.token0Symbol}`
           )
           .attr("x", this.x(x0) + 5)
           .attr("text-anchor", "left")
-          .attr("y", 65);
+          .attr("y", 20);
       }
     };
 
