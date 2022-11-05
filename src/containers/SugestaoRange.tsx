@@ -1,9 +1,10 @@
 import React from 'react';
 import { useEffect } from "react";
 import styled from "styled-components";
-import { useAppContext } from "../../context/app/appContext";
-import { AppActionType } from "../../context/app/appReducer";
-import { divideArray, findMax, findMin } from "../../utils/math";
+import { useAppContext } from "../context/app/appContext";
+import { AppActionType } from "../context/app/appReducer";
+import { divideArray, findMax, findMin } from "../utils/math";
+import { Heading } from "../common/atomic";
 
 const SettingContainer = styled.div`
   background: rgba(255, 255, 255, 0.1);

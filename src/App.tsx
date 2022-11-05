@@ -8,7 +8,7 @@ import LiquidityPositionChart from "./containers/LiquidityPositionChart";
 import SelectPairModal from "./containers/select-pair/SelectPairModal";
 import Setting from "./containers/setting/Setting";
 import { ScreenWidth } from "./utils/styled";
-import SugestaoRange from "./containers/setting/SugestaoRange";
+import SugestaoRange from "./containers/SugestaoRange";
 import Credito from "./containers/Credito";
 import Navbarra from "./containers/Navbarra";
 
@@ -41,6 +41,8 @@ function App() {
       <Navbarra />
       <BodyContainer>
         <Header />
+        <Br />
+        <SugestaoRange />
         <ContentContainer>
           <div>
             <EstimatedFees />
@@ -53,8 +55,6 @@ function App() {
             <CorrelationChart />
           </div>
         </ContentContainer>
-        <Br />
-        <SugestaoRange />
         <Credito />
       </BodyContainer>
     </>

@@ -204,10 +204,6 @@
       "id": "1617-s-avers",
       "name": "RealT - 1617 S Avers Ave, Chicago, IL 60623"
     },
-    "0x021bb23a45e9fc824260435e670fc383b7b8cbbb": {
-      "id": "16200-fullerton",
-      "name": "RealT - 16200 Fullerton Ave, Detroit, MI 48227"
-    },
     "0x1fdb4015fd5e031c5641752c1e03b973ad5ea168": {
       "id": "17500-evergreen",
       "name": "RealT - 17500 Evergreen Rd, Detroit, MI 48219"
@@ -663,10 +659,6 @@
     "0x241ba672574a78a3a604cdd0a94429a73a84a324": {
       "id": "4new",
       "name": "4New"
-    },
-    "0x62d75a2a10f755104bd1024d997141ce793cf585": {
-      "id": "520",
-      "name": "520"
     },
     "0xa137d82197ea4cdfd5f008a91ba816b8324f59e1": {
       "id": "5601-s-wood",
@@ -1300,6 +1292,10 @@
       "id": "aladdin-dao",
       "name": "Aladdin DAO"
     },
+    "0x10f44a834097469ac340592d28c479c442e99bfe": {
+      "id": "alcazar",
+      "name": "Alcazar"
+    },
     "0x88acdd2a6425c3faae4bc9650fd7e27e0bebb7ab": {
       "id": "alchemist",
       "name": "Alchemist"
@@ -1391,6 +1387,10 @@
     "0xeb6026d3beaa308d5822c44cdd2ca8c7714237ec": {
       "id": "all-sports-2",
       "name": "All Sports"
+    },
+    "0x083dfb3566bde80380446718eeda55b800464636": {
+      "id": "allstars",
+      "name": "AllStars"
     },
     "0xf2cdf38e24738ba379ffa38d47bc88a941df5627": {
       "id": "ally",
@@ -1864,6 +1864,10 @@
       "id": "artfinity-token",
       "name": "Artfinity"
     },
+    "0x600000000a36f3cd48407e35eb7c5c910dc1f7a8": {
+      "id": "art-gobblers-goo",
+      "name": "Art Gobblers Goo"
+    },
     "0x8cc0f052fff7ead7f2edcccac895502e884a8a71": {
       "id": "arth",
       "name": "ARTH"
@@ -2288,6 +2292,10 @@
       "id": "balancer",
       "name": "Balancer"
     },
+    "0x5c6ee304399dbdb9c8ef030ab642b10820db8f56": {
+      "id": "balancer-80-bal-20-weth",
+      "name": "Balancer 80 BAL 20 WETH"
+    },
     "0xae37d54ae477268b9997d4161b96b8200755935c": {
       "id": "balancer-boosted-aave-dai",
       "name": "Balancer Boosted Aave DAI"
@@ -2631,10 +2639,6 @@
     "0xc3b5284b2c0cfa1871a6ac63b6d6ee43c08bdc79": {
       "id": "bgan-vault-nftx",
       "name": "BGAN Vault (NFTX)"
-    },
-    "0xea54c81fe0f72de8e86b6dc78a9271aa3925e3b5": {
-      "id": "bgogo",
-      "name": "Bgogo"
     },
     "0x009c43b42aefac590c719e971020575974122803": {
       "id": "bibox-token",
@@ -3068,6 +3072,10 @@
       "id": "blockchain-exchange-alliance",
       "name": "Blockchain Exchange Alliance"
     },
+    "0xcdc412f306e0c51e3249b88c65423cd16b322673": {
+      "id": "blockchain-io",
+      "name": "Blockchain.io"
+    },
     "0x2ba8349123de45e931a8c8264c332e6e9cf593f9": {
       "id": "blockchain-monster-hunt",
       "name": "Blockchain Monster Hunt"
@@ -3175,6 +3183,14 @@
     "0x5ef227f7ce4e96c9ce90e32d4850545a6c5d099b": {
       "id": "bluechips-token",
       "name": "BLUECHIPS"
+    },
+    "0xe5d2e173b120341face9e9970889c9fe64081ffd": {
+      "id": "bluejay",
+      "name": "Bluejay"
+    },
+    "0x508626d9a29d13eba26f843a2bd7bf7b00a45be5": {
+      "id": "bluelight",
+      "name": "Bluelight"
     },
     "0x24ccedebf841544c9e6a62af4e8c2fa6e5a46fde": {
       "id": "bluesparrow",
@@ -3508,10 +3524,6 @@
       "id": "bubble-network",
       "name": "Bubble Network"
     },
-    "0x58f46f627c88a3b217abc80563b9a726abb873ba": {
-      "id": "bubbles",
-      "name": "Bubbles"
-    },
     "0x996229d0c6a485c7f4b52e092eaa907cb2def5c6": {
       "id": "buckhath-coin",
       "name": "BuckHath Coin"
@@ -3620,10 +3632,6 @@
       "id": "byteball",
       "name": "Obyte"
     },
-    "0xe22c4e46c6f54e72315ca6eda934e7b766b0173d": {
-      "id": "bytedex",
-      "name": "ByteDex"
-    },
     "0x2aad9dbc82611485a52325923e1187734e951b78": {
       "id": "bytz",
       "name": "BYTZ"
@@ -3659,10 +3667,6 @@
     "0xf7269a10e85d4aa8282529516cf86847748da2bf": {
       "id": "candela-coin",
       "name": "Candela Coin"
-    },
-    "0x3d97edb1c1d87c0cbf098a0d2230d7380d4b1432": {
-      "id": "candle",
-      "name": "Candle"
     },
     "0x43044f861ec040db59a7e324c40507addb673142": {
       "id": "cap",
@@ -4504,10 +4508,6 @@
       "id": "connectome",
       "name": "Connectome"
     },
-    "0xd8698a985b89650d0a70f99ad2909bd0c0b4b51c": {
-      "id": "consentium",
-      "name": "Consentium"
-    },
     "0x7a58c0be72be218b41c608b7fe7c5bb630736c71": {
       "id": "constitutiondao",
       "name": "ConstitutionDAO"
@@ -4563,6 +4563,10 @@
     "0x114f1388fab456c4ba31b1850b244eedcd024136": {
       "id": "cool-vault-nftx",
       "name": "COOL Vault (NFTX)"
+    },
+    "0x6347978f54f75d76630b819897f9ce68c83ce2a2": {
+      "id": "cordium",
+      "name": "Cordium"
     },
     "0x5b685863494c33f344081f75e5430c260c224a32": {
       "id": "core",
@@ -4812,10 +4816,6 @@
       "id": "cryption-network",
       "name": "Cryption Network"
     },
-    "0xcad2d4c4469ff09ab24d02a63bcedfcd44be0645": {
-      "id": "crypto-accept",
-      "name": "Crypto Accept"
-    },
     "0x5c8c8d560048f34e5f7f8ad71f2f81a89dbd273e": {
       "id": "cryptoart-ai",
       "name": "CryptoArt.Ai"
@@ -4992,6 +4992,10 @@
       "id": "csr",
       "name": "CSR"
     },
+    "0x135783b60cf5d71daff7a377f9eb7db8d2deab9e": {
+      "id": "ctrl-x",
+      "name": "Ctrl-X"
+    },
     "0xbbab3bdb291b0f22bc9881895ff488a5db67bec8": {
       "id": "cube",
       "name": "CUBE"
@@ -4999,10 +5003,6 @@
     "0x622dffcc4e83c64ba959530a5a5580687a57581b": {
       "id": "cube-intelligence",
       "name": "Cube Intelligence"
-    },
-    "0x122f96d596384885b54bccdddf2125018c421d83": {
-      "id": "cubiex",
-      "name": "Cubiex"
     },
     "0xbf9e72eeb5adb8b558334c8672950b7a379d4266": {
       "id": "cubtoken",
@@ -5076,10 +5076,6 @@
       "id": "cyberfm",
       "name": "CyberFM"
     },
-    "0x9d59eba4deaee09466ba9d4073bf912bc72982b0": {
-      "id": "cyberkongz",
-      "name": "CYBERKONGZ"
-    },
     "0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f": {
       "id": "cybermiles",
       "name": "CyberMiles"
@@ -5107,6 +5103,10 @@
     "0xbd05cee8741100010d8e93048a80ed77645ac7bf": {
       "id": "cyclops-treasure",
       "name": "Cyclops Treasure"
+    },
+    "0x26524e35e44e265eb181c7ba6ec084983181aae3": {
+      "id": "cydotori",
+      "name": "Cydotori"
     },
     "0xa5522d6137ece774e8084bbf9c34398192ccdca5": {
       "id": "cyn-c",
@@ -5159,6 +5159,10 @@
     "0x2c0da41c89adb5a1d4430e5761b9b400911426b0": {
       "id": "dama",
       "name": "DAMA"
+    },
+    "0xb3207935ff56120f3499e8ad08461dd403bf16b8": {
+      "id": "damm",
+      "name": "dAMM"
     },
     "0x0fbe9cc858d7ad6e246fe9d01aed22abd2a66f0b": {
       "id": "danat-coin",
@@ -5296,6 +5300,10 @@
       "id": "day-by-day",
       "name": "Day By Day"
     },
+    "0xe3a46b2bc1d83c731d58cab765d3b45bce789095": {
+      "id": "daystarter",
+      "name": "DAYSTARTER"
+    },
     "0x3cbc780d2934d55a06069e837fabd3e6fc23dab0": {
       "id": "dbx-2",
       "name": "DBX"
@@ -5408,7 +5416,7 @@
       "id": "deesse",
       "name": "Deesse"
     },
-    "0xdefac16715671b7b6aeefe012125f1e19ee4b7d7": {
+    "0xe0bceef36f3a6efdd5eebfacd591423f8549b9d5": {
       "id": "defactor",
       "name": "Defactor"
     },
@@ -5455,6 +5463,14 @@
     "0x20c36f062a31865bed8a5b1e512d9a1a20aa333a": {
       "id": "defidollar-dao",
       "name": "DefiDollar DAO"
+    },
+    "0x5198625a8abf34a0d2a1f262861ff3b3079302bf": {
+      "id": "defi-forge",
+      "name": "DeFi Forge"
+    },
+    "0x045da4bfe02b320f4403674b3b7d121737727a36": {
+      "id": "defi-franc",
+      "name": "DeFi Franc"
     },
     "0x1ea48b9965bb5086f3b468e50ed93888a661fc17": {
       "id": "defi-franc-moneta",
@@ -5607,6 +5623,10 @@
     "0x9ea3b5b4ec044b70375236a281986106457b20ef": {
       "id": "delta-financial",
       "name": "Delta Financial"
+    },
+    "0x39ea10e507720783c27edd5f96bf2d6e199579b8": {
+      "id": "deltaflare",
+      "name": "DeltaFlare"
     },
     "0x0000000de40dfa9b17854cbc7869d80f9f98d823": {
       "id": "delta-theta",
@@ -5860,10 +5880,6 @@
       "id": "dione",
       "name": "Dione"
     },
-    "0xb9e6bdcba653b5f768dd2e2faf6288df9054e554": {
-      "id": "dirham",
-      "name": "Dirham"
-    },
     "0x7fbec0bb6a7152e77c30d005b5d49cbc08a602c3": {
       "id": "disbalancer",
       "name": "disBalancer"
@@ -5940,10 +5956,6 @@
       "id": "dogelon-mars",
       "name": "Dogelon Mars"
     },
-    "0x3cc1020acdcd64b11dd417d2c28388e71605d7c9": {
-      "id": "dogeman",
-      "name": "DogeMan"
-    },
     "0xe7eaec9bca79d537539c00c58ae93117fb7280b9": {
       "id": "doge-protocol",
       "name": "Doge Protocol"
@@ -5955,6 +5967,10 @@
     "0x25e44e0250f0492c188918f2d726b4861263ef5b": {
       "id": "dogetama",
       "name": "Dogetama"
+    },
+    "0xfeb6d5238ed8f1d59dcab2db381aa948e625966d": {
+      "id": "doge-tv",
+      "name": "Doge-TV"
     },
     "0x9c405acf8688afb61b3197421cdeec1a266c6839": {
       "id": "dogeyield",
@@ -5975,10 +5991,6 @@
     "0xd8c1232fcd219286e341271385bd70601503b3d7": {
       "id": "dogira",
       "name": "Dogira"
-    },
-    "0xb0aa163e92f0c3b6005d0580cdcc5dd79c42301f": {
-      "id": "dogkage",
-      "name": "DogKage"
     },
     "0xf8e9f10c22840b613cda05a0c5fdb59a4d6cd7ef": {
       "id": "dogsofelon",
@@ -6039,6 +6051,10 @@
     "0x4576e6825b462b6916d2a41e187626e9090a92c6": {
       "id": "donkey-token",
       "name": "Donkey DON"
+    },
+    "0x2de509bf0014ddf697b220be628213034d320ece": {
+      "id": "don-t-buy-inu",
+      "name": "Don't Buy Inu"
     },
     "0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9": {
       "id": "donut",
@@ -6768,10 +6784,6 @@
       "id": "ethereum-cash",
       "name": "Ethereum Cash"
     },
-    "0x28c8d01ff633ea9cd8fc6a451d7457889e698de6": {
-      "id": "ethereum-gold",
-      "name": "Ethereum Gold"
-    },
     "0xa96f31f1c187c28980176c3a27ba7069f48abde4": {
       "id": "ethereum-gold-project",
       "name": "Ethereum Gold Project"
@@ -6960,10 +6972,6 @@
       "id": "everyonescrypto",
       "name": "EveryonesCrypto"
     },
-    "0x6b40d317bc1de4b0938519ac707ae36464f49171": {
-      "id": "every-original",
-      "name": "EVERY ORIGINAL"
-    },
     "0xfac8f483877f42702aad3c4fcb508cfba09153b5": {
       "id": "evident-proof-transaction-token",
       "name": "Evident Proof Transaction"
@@ -7127,10 +7135,6 @@
     "0x943ed852dadb5c3938ecdc6883718df8142de4c8": {
       "id": "fanstime",
       "name": "FansTime"
-    },
-    "0x4a66e967d4bf0170fe74c26980073028b1f2809a": {
-      "id": "fantasy-world-gold",
-      "name": "Fantasy World Gold"
     },
     "0x4e15361fd6b4bb609fa63c81a2be19d873717870": {
       "id": "fantom",
@@ -7508,13 +7512,13 @@
       "id": "fortune",
       "name": "Fortune"
     },
+    "0xb13d747d783bf1a9f1d65df74c080c890045f17e": {
+      "id": "foundation",
+      "name": "Foundation"
+    },
     "0x6c972b70c533e2e045f333ee28b9ffb8d717be69": {
       "id": "foundrydao-logistics",
       "name": "FoundryDAO Logistics"
-    },
-    "0x4e808f2b01e42b7fd01428bc49a0a0a61666e760": {
-      "id": "four-emperors",
-      "name": "Four Emperors"
     },
     "0xfbe878ced08132bd8396988671b450793c44bc12": {
       "id": "fox-trading-token",
@@ -7583,6 +7587,10 @@
     "0x37941b3fdb2bd332e667d452a58be01bcacb923e": {
       "id": "fren",
       "name": "FREN"
+    },
+    "0x8e14c88ab0644ef41bd7138ab91c0160d8c1583a": {
+      "id": "frenchain",
+      "name": "FrenChain"
     },
     "0x8720c8429b78df262360b0f39917a03f9b894746": {
       "id": "frenzy",
@@ -7715,6 +7723,10 @@
     "0x15d4c048f83bd7e37d49ea4c83a07267ec4203da": {
       "id": "gala",
       "name": "Gala"
+    },
+    "0x40a11f82a8469c8dc015ba74438536584978d63c": {
+      "id": "galileo",
+      "name": "Galileo"
     },
     "0xa0008f510fe9ee696e7e320c9e5cbf61e27791ee": {
       "id": "gamb",
@@ -8008,10 +8020,6 @@
       "id": "global-human-trust",
       "name": "Global Human Trust"
     },
-    "0x45f2ab0ca2116b2e1a70bf5e13293947b25d0272": {
-      "id": "global-reserve-system",
-      "name": "Global Reserve System"
-    },
     "0x228ba514309ffdf03a81a205a6d040e429d6e80c": {
       "id": "global-social-chain",
       "name": "Global Social Chain"
@@ -8107,10 +8115,6 @@
     "0x34d6a0f5c2f5d0082141fe73d93b9dd00ca7ce11": {
       "id": "golden-token",
       "name": "Golden"
-    },
-    "0x7b3296198f8a548edf89bdb16864da8f37b7d9cb": {
-      "id": "goldenugget",
-      "name": "GoldeNugget"
     },
     "0xc631120155621ee625835ec810b9885cdd764cd6": {
       "id": "goldex-token",
@@ -8372,6 +8376,10 @@
       "id": "hackspace-capital",
       "name": "Hackspace Capital"
     },
+    "0xf90c7f66eac7e2130bf677d69a250b2136cf6697": {
+      "id": "haki-token",
+      "name": "HAKI Token"
+    },
     "0x0e29e5abbb5fd88e28b2d355774e73bd47de3bcd": {
       "id": "hakka-finance",
       "name": "Hakka Finance"
@@ -8568,6 +8576,10 @@
       "id": "hex-money",
       "name": "HXY Money"
     },
+    "0xe61f6e39711cec14f8d6c637c2f4568baa9ff7ee": {
+      "id": "hey",
+      "name": "Hey"
+    },
     "0x83031984b45553070a088273f341bff7fb4f2f46": {
       "id": "hibayc",
       "name": "hiBAYC"
@@ -8604,6 +8616,10 @@
       "id": "himayc",
       "name": "hiMAYC"
     },
+    "0xbbeca80a4c99c3b1bd3c10e64595d0fc7dc26ee0": {
+      "id": "himeebits",
+      "name": "hiMEEBITS"
+    },
     "0xbd0a4bf098261673d5e6e600fd87ddcd756e6764": {
       "id": "hina-inu",
       "name": "Hina Inu"
@@ -8616,6 +8632,10 @@
       "id": "hiodbs",
       "name": "hiODBS"
     },
+    "0xa0ed3c520dc0632657ad2eaaf19e26c4fd431a84": {
+      "id": "hippopotamus",
+      "name": "Hippopotamus"
+    },
     "0xb1f136a74e18e4e2921febbf25820d1bb65b5647": {
       "id": "hipunks",
       "name": "hiPunks"
@@ -8623,6 +8643,10 @@
     "0x12aef5c60c2c86c8ecd3079f22f285f326371340": {
       "id": "hisand33",
       "name": "hiSAND33"
+    },
+    "0x51395ade06eae126f590e7b06dc8f6baf511f13f": {
+      "id": "hisquiggle",
+      "name": "hiSQUIGGLE"
     },
     "0x3c4008eca800ec1283e4cf500e68d06bfabc00a8": {
       "id": "historydao",
@@ -8856,10 +8880,6 @@
       "id": "husky-vc",
       "name": "Husky VC"
     },
-    "0x5bc7e5f0ab8b2e10d2d0a3f21739fce62459aef3": {
-      "id": "hut34-entropy",
-      "name": "Hut34 Entropy"
-    },
     "0x4bd70556ae3f8a6ec6c4080a0c327b24325438f3": {
       "id": "hxro",
       "name": "Hxro"
@@ -8892,10 +8912,6 @@
       "id": "hyperdao",
       "name": "HyperDAO"
     },
-    "0xe99a894a69d7c2e3c92e61b64c505a6a57d2bc07": {
-      "id": "hyperion",
-      "name": "Hyperion"
-    },
     "0x3e1d5a855ad9d948373ae68e4fe1f094612b1322": {
       "id": "hyperquant",
       "name": "HyperQuant"
@@ -8903,10 +8919,6 @@
     "0xb14ebf566511b9e6002bb286016ab2497b9b9c9d": {
       "id": "hypersign-identity-token",
       "name": "Hypersign Identity"
-    },
-    "0xba711fb93ca039cb592ee34c96f4adf632e5b8e7": {
-      "id": "hyper-trust",
-      "name": "Hyper Trust"
     },
     "0xd794dd1cada4cf79c9eebaab8327a1b0507ef7d4": {
       "id": "hyve",
@@ -9116,6 +9128,10 @@
       "id": "impactxp",
       "name": "ImpactXP"
     },
+    "0x54cb643ab007f47882e8120a8c57b639005c2688": {
+      "id": "impactxprime",
+      "name": "IMPACTXPRIME"
+    },
     "0x42a0d24cb5c423eaaf926ce3984aaff0c4ff6fe2": {
       "id": "imperial-obelisk",
       "name": "Imperial Obelisk [OLD]"
@@ -9239,10 +9255,6 @@
     "0x62a8c2818bd7034dc24cd22368c3e53e8eb47c18": {
       "id": "innitforthetech",
       "name": "InnitForTheTECH"
-    },
-    "0xae353daeed8dcc7a9a12027f7e070c0a50b7b6a4": {
-      "id": "innovaminex",
-      "name": "InnovaMinex"
     },
     "0x7d14b842630cbc2530cb288109e5719e0c4d67d7": {
       "id": "innovation-blockchain-payment",
@@ -9480,10 +9492,6 @@
       "id": "iron-bank-gbp",
       "name": "Iron Bank GBP"
     },
-    "0x8e12bd795d2608f90440c84dddd2d985240696d5": {
-      "id": "isalcoin",
-      "name": "Isalcoin"
-    },
     "0x42726d074bba68ccc15200442b72afa2d495a783": {
       "id": "isiklar-coin",
       "name": "Isiklar Coin"
@@ -9604,9 +9612,13 @@
       "id": "jem",
       "name": "Jem"
     },
+    "0xcb4d749fd1ff081d6fea3bd978de87603e098e63": {
+      "id": "jenny-dao-v2",
+      "name": "Jenny DAO V2"
+    },
     "0xa499648fd0e80fd911972bbeb069e4c20e68bf22": {
       "id": "jenny-metaverse-dao-token",
-      "name": "Jenny Metaverse DAO"
+      "name": "Jenny DAO V1"
     },
     "0x8727c112c712c4a03371ac87a74dd6ab104af768": {
       "id": "jetcoin",
@@ -9639,10 +9651,6 @@
     "0x22bb7d3f4dcf074b979021ca4e214361e14c6b26": {
       "id": "joinblocks",
       "name": "JoinBlocks"
-    },
-    "0x347c099f110ca6761779329d2879957b606b6ace": {
-      "id": "joint",
-      "name": "Joint Ventures"
     },
     "0xe18024f4838962d61eb591982390dffc762f2cd7": {
       "id": "jojo-inu",
@@ -9684,6 +9692,10 @@
       "id": "jpyc",
       "name": "JPY Coin v1"
     },
+    "0x431d5dff03120afa4bdf332c61a6e1766ef37bdb": {
+      "id": "jpy-coin",
+      "name": "JPY Coin"
+    },
     "0xeb7355c2f217b3485a591332fe13c8c5a76a581d": {
       "id": "jubi-token",
       "name": "Jubi Token"
@@ -9715,10 +9727,6 @@
     "0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8": {
       "id": "jupiter",
       "name": "Jupiter"
-    },
-    "0x638155f4bd8f85d401da32498d8866ee39a150b8": {
-      "id": "jurasaur",
-      "name": "Jurasaur"
     },
     "0xbe601dd49da9ee1d2f64d422c4aecf8eb83c119f": {
       "id": "justcarbon-governance",
@@ -9940,9 +9948,13 @@
       "id": "kishiburno",
       "name": "Kishiburno"
     },
+    "0xae36155a55f04a696b8362777620027882b31db5": {
+      "id": "kishimoto",
+      "name": "Kishimoto"
+    },
     "0xf5b1fd29d23e98db2d9ebb8435e1082e3b38fb65": {
       "id": "kishimoto-inu",
-      "name": "Kishimoto Inu"
+      "name": "Kishimoto (old)"
     },
     "0xa2b4c0af19cc16a6cfacce81f192b024d625817d": {
       "id": "kishu-inu",
@@ -10148,10 +10160,6 @@
       "id": "kusunoki-samurai",
       "name": "Kusunoki Samurai"
     },
-    "0xf70d160102cf7a22c1e432d6928a9d625db91170": {
-      "id": "kuverit",
-      "name": "Kuverit"
-    },
     "0xdd974d5c2e2928dea5f71b9825b8b646686bd200": {
       "id": "kyber-network",
       "name": "Kyber Network Crystal Legacy"
@@ -10195,10 +10203,6 @@
     "0x2c644c3bbea053ed95a6bc04a94c9ce928ff9881": {
       "id": "lance-coin",
       "name": "Lance Coin"
-    },
-    "0xff3417dd60a87bce3a6d7d4a62dcd3e9d2ea59c4": {
-      "id": "landverse",
-      "name": "Landverse"
     },
     "0x786e995a975c2ab7c1dd252a9019fb0c91c9ca83": {
       "id": "landworld",
@@ -10290,7 +10294,7 @@
     },
     "0x305de070488c8469dfac957226c9c900c4bfba22": {
       "id": "legends-room",
-      "name": "More Coin"
+      "name": "More"
     },
     "0x0a50c93c762fdd6e56d86215c24aaad43ab629aa": {
       "id": "legolas-exchange",
@@ -10804,6 +10808,10 @@
       "id": "machix",
       "name": "Machi X"
     },
+    "0x8770b7dd89e5f759ee3b226e0c45e890f87ddc48": {
+      "id": "made-in-real-life",
+      "name": "Made In Real Life"
+    },
     "0x425c5b7b55f9c981c71935418ed044e79d8080e2": {
       "id": "mad-hatter-society",
       "name": "Mad Hatter Society"
@@ -11028,6 +11036,10 @@
       "id": "matryx",
       "name": "MATRYX"
     },
+    "0x2f0f622a93c85c43fd47f4ab119360f5846026c4": {
+      "id": "matsuswap",
+      "name": "MatsuSwap"
+    },
     "0x1370e3b7aa261dcbe19ee24c456e56ff186aec85": {
       "id": "max-bidding",
       "name": "Max Bidding"
@@ -11126,7 +11138,7 @@
     },
     "0x9506d37f70eb4c3d79c398d326c871abbf10521d": {
       "id": "media-licensing-token",
-      "name": "Media Licensing"
+      "name": "Media Licensing Token"
     },
     "0xdb726152680ece3c9291f1016f1d36f3995f6941": {
       "id": "media-network",
@@ -11219,6 +11231,10 @@
     "0x4eeea7b48b9c3ac8f70a9c932a8b1e8a5cb624c7": {
       "id": "membrana-platform",
       "name": "Membrana"
+    },
+    "0xa4c612296aa97057c160b95255f902f9dde6704c": {
+      "id": "memecard",
+      "name": "MemeCard"
     },
     "0x42dbbd5ae373fea2fc320f62d44c058522bb3758": {
       "id": "memecoin",
@@ -11354,7 +11370,7 @@
     },
     "0xf433089366899d83a9f26a773d59ec7ecf30355e": {
       "id": "metal",
-      "name": "Metal"
+      "name": "Metal DAO"
     },
     "0x294559fa758c88d639fd085751e463fee7806eab": {
       "id": "metal-blockchain",
@@ -11900,6 +11916,10 @@
       "id": "morpheus-network",
       "name": "Morpheus Network"
     },
+    "0x6d6554939d646f274d0fc3cecb7dab5d76bc908f": {
+      "id": "morphswap",
+      "name": "Morphswap"
+    },
     "0xfc98e825a2264d890f9a1e68ed50e1526abccacd": {
       "id": "moss-carbon-credit",
       "name": "Moss Carbon Credit"
@@ -12016,10 +12036,6 @@
       "id": "mute",
       "name": "Mute"
     },
-    "0x1f35a281036be57e64e7e7a2a556b4f888a1b829": {
-      "id": "muzika-network",
-      "name": "Muzika Network"
-    },
     "0x5ca381bbfb58f0092df149bd3d243b08b9a8386e": {
       "id": "mxc",
       "name": "MXC"
@@ -12064,6 +12080,10 @@
       "id": "mysterium",
       "name": "Mysterium"
     },
+    "0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003": {
+      "id": "mythos",
+      "name": "Mythos"
+    },
     "0xa12d7e5319f5b43476ef19d1569e10097cacdfe2": {
       "id": "myth-token",
       "name": "Myth"
@@ -12075,10 +12095,6 @@
     "0x0bf0d26a527384bcc4072a6e2bca3fc79e49fa2d": {
       "id": "mytrade",
       "name": "Mytrade"
-    },
-    "0xd123575d94a7ad9bff3ad037ae9d4d52f41a7518": {
-      "id": "mywish",
-      "name": "MyWish"
     },
     "0x2321537fd8ef4644bacdceec54e5f35bf44311fa": {
       "id": "n00dle",
@@ -12459,10 +12475,6 @@
     "0x747f564d258612ec5c4e24742c5fd4110bcbe46b": {
       "id": "nodeseeds",
       "name": "Nodeseeds"
-    },
-    "0x6110c64219621ce5b02fb8e8e57b54c01b83bf85": {
-      "id": "node-squared",
-      "name": "Node Squared"
     },
     "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca": {
       "id": "noia-network",
@@ -12964,10 +12976,6 @@
       "id": "otcbtc-token",
       "name": "OTCBTC"
     },
-    "0x3d4e7f52efafb9e0c70179b688fc3965a75bcfea": {
-      "id": "ot-compound-dai",
-      "name": "OT Compound Dai"
-    },
     "0x407a3e019c655b779ccd098ff50377e4c5f1c334": {
       "id": "otherdao",
       "name": "OtherDAO"
@@ -13139,10 +13147,6 @@
     "0x362bc847a3a9637d3af6624eec853618a43ed7d2": {
       "id": "parsiq",
       "name": "PARSIQ"
-    },
-    "0xa211f450ce88deb31d3f12ae3c1ebf6b0e55a5d9": {
-      "id": "parsiq-boost",
-      "name": "Parsiq Boost"
     },
     "0x68037790a0229e9ce6eaa8a99ea92964106c4703": {
       "id": "par-stablecoin",
@@ -13744,6 +13748,10 @@
       "id": "poolz-finance",
       "name": "Poolz Finance"
     },
+    "0x9565c2036963697786705120fc59310f747bcfd0": {
+      "id": "poorpleb",
+      "name": "PoorPleb"
+    },
     "0x7fc3ec3574d408f3b59cd88709bacb42575ebf2b": {
       "id": "pop",
       "name": "POP"
@@ -14030,7 +14038,7 @@
     },
     "0x43ab765ee05075d78ad8aa79dcb1978ca3079258": {
       "id": "punks-comic-pow",
-      "name": "Metahero Universe"
+      "name": "POW"
     },
     "0x269616d549d7e8eaa82dfb17028d0b212d11232a": {
       "id": "punk-vault-nftx",
@@ -14107,10 +14115,6 @@
     "0xc05a4ed46ef5b0678d56fff5a877b4b6b32077bb": {
       "id": "qfora",
       "name": "Qfora"
-    },
-    "0x2467aa6b5a2351416fd4c3def8462d841feeecec": {
-      "id": "qiibee",
-      "name": "qiibee foundation"
     },
     "0xc18c07a18198a6340cf4d94855fe5eb6dd33b46e": {
       "id": "qlindo",
@@ -14448,6 +14452,10 @@
       "id": "reftoken",
       "name": "Ref"
     },
+    "0x801de502c493aa9d3f9f79a0348fbc00521b3001": {
+      "id": "relaxable",
+      "name": "Relaxable"
+    },
     "0x5d843fa9495d23de997c394296ac7b4d721e841c": {
       "id": "relay-token",
       "name": "Relay Chain"
@@ -14672,10 +14680,6 @@
       "id": "robonomics-web-services",
       "name": "Robonomics Web Services"
     },
-    "0xb45ff0d00882e1cc12d5a9acc183e59b600dc54f": {
-      "id": "robo-step",
-      "name": "Robo Step"
-    },
     "0xfb5453340c03db5ade474b27e68b6a9c6b2823eb": {
       "id": "robot",
       "name": "Robot"
@@ -14802,7 +14806,7 @@
     },
     "0x5afe3855358e112b5647b952709e6165e1c1eeee": {
       "id": "safe",
-      "name": "Safe"
+      "name": "Safe Token"
     },
     "0x62d693fe5c13b5a5b24c9ec3f423e51c35f5624f": {
       "id": "safebitcoin",
@@ -15288,6 +15292,10 @@
       "id": "shibgf",
       "name": "SHIBGF"
     },
+    "0x8916187112fd6e3624a80c42fa354cd9756e695f": {
+      "id": "shibird",
+      "name": "Shibird"
+    },
     "0x440238cc07186adea6653a2e8cb9a24737615609": {
       "id": "shibmerican",
       "name": "Shibmerican"
@@ -15360,6 +15368,10 @@
       "id": "shinjiro",
       "name": "Shinjiro"
     },
+    "0x2965395f71b7d97ede251e9b63e44dfa9647cc0a": {
+      "id": "shinshu-inu",
+      "name": "Shinshu Inu"
+    },
     "0x7e794ed35788b698ae60cefc98ee48015c4876da": {
       "id": "shintama",
       "name": "Shintama"
@@ -15399,6 +15411,10 @@
     "0xaa7fb1c8ce6f18d4fd4aabb61a2193d4d441c54f": {
       "id": "shitcoin",
       "name": "ShitCoin"
+    },
+    "0x5022cb6d39001cdd6f996e8a66500c86128f1cc4": {
+      "id": "shiwa",
+      "name": "Shiwa"
     },
     "0x29a5c1db7321c5c9eae57f9366ee8eef00ca11fb": {
       "id": "shkooby-inu",
@@ -15496,6 +15512,10 @@
       "id": "silent-notary",
       "name": "Silent Notary"
     },
+    "0xb045f7f363fe4949954811b113bd56d208c67b23": {
+      "id": "silk",
+      "name": "Spider Tanks"
+    },
     "0x4c1e085d8c2d2a8377834d0d7b38f12cc5b86898": {
       "id": "silkchain",
       "name": "SilkChain"
@@ -15503,10 +15523,6 @@
     "0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8": {
       "id": "silo-finance",
       "name": "Silo Finance"
-    },
-    "0x4c1c4957d22d8f373aed54d0853b090666f6f9de": {
-      "id": "silverway",
-      "name": "Silverway"
     },
     "0x2863916c6ebdbbf0c6f02f87b7eb478509299868": {
       "id": "simba-storage-token",
@@ -15592,10 +15608,6 @@
       "id": "skull",
       "name": "Skull"
     },
-    "0x33e2c129ea670031659ac8852c01d0fe4b297954": {
-      "id": "sky",
-      "name": "SkyToken"
-    },
     "0xa13c75387c6677362f540f432bd8928c014e4892": {
       "id": "sky-bandit-coin",
       "name": "Sky Bandit Coin"
@@ -15603,6 +15615,10 @@
     "0x2610f0bfc21ef389fe4d03cfb7de9ac1e6c99d6e": {
       "id": "skyrim-finance",
       "name": "Skyrim Finance"
+    },
+    "0x090fc4d5436d98e13473c4d6109de6a18bcfb0d4": {
+      "id": "sky-v2",
+      "name": "SkyToken"
     },
     "0x2932624ff57f5920ce498bb343385c0332ec6e40": {
       "id": "slay-to-earn",
@@ -15736,6 +15752,10 @@
       "id": "society-of-galactic-exploration",
       "name": "Society of Galactic Exploration"
     },
+    "0xf8497f1dab075a3674363b5609ba679f7dc9c885": {
+      "id": "sodatsu",
+      "name": "Sodatsu"
+    },
     "0x86696431d6aca9bae5ce6536ecf5d437f2e6dba2": {
       "id": "softchain",
       "name": "SoftChain"
@@ -15828,10 +15848,6 @@
       "id": "soulsaver",
       "name": "Soulsaver"
     },
-    "0x48f07301e9e29c3c38a80ae8d9ae771f224f1054": {
-      "id": "south-african-tether",
-      "name": "South African Tether"
-    },
     "0xbdab72602e9ad40fc6a6852caf43258113b8f7a5": {
       "id": "sovryn",
       "name": "Sovryn"
@@ -15903,10 +15919,6 @@
     "0x090185f2135308bad17527004364ebcc2d37e5f6": {
       "id": "spell-token",
       "name": "Spell"
-    },
-    "0xddd460bbd9f79847ea08681563e8a9696867210c": {
-      "id": "spendcoin",
-      "name": "Spendcoin"
     },
     "0x2c756e74b7309d785b5e2960ef262c4f14a87930": {
       "id": "spender-x",
@@ -16276,6 +16288,10 @@
       "id": "stratos",
       "name": "Stratos"
     },
+    "0x0e8d2eb7d6bdf28393c25a1966385ad32ff0259a": {
+      "id": "streamer-inu",
+      "name": "Streamer Inu"
+    },
     "0x9b5c2be869a19e84bdbcb1386dad83a2ec8dae82": {
       "id": "stream-protocol",
       "name": "Stream Protocol"
@@ -16499,10 +16515,6 @@
     "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9": {
       "id": "swipe",
       "name": "SXP"
-    },
-    "0x13d71cfc90a83cd1cc0e59675c3f4b90d4162a8b": {
-      "id": "swipe-network",
-      "name": "SWIPE Network"
     },
     "0xba9d4199fab4f26efe3551d490e3821486f135ba": {
       "id": "swissborg",
@@ -17124,6 +17136,10 @@
       "id": "tokenlon",
       "name": "Tokenlon"
     },
+    "0x90e2fa98dfc518317600dd3dc571de8d071a7238": {
+      "id": "token-of-fire",
+      "name": "Token of Fire"
+    },
     "0xdd16ec0f66e54d453e6756713e533355989040e4": {
       "id": "tokenomy",
       "name": "Tokenomy"
@@ -17539,6 +17555,10 @@
     "0xe884cc2795b9c45beeac0607da9539fd571ccf85": {
       "id": "ultiledger",
       "name": "Ultiledger"
+    },
+    "0x456125cd98107ae0480ba566f1b716d48ba31453": {
+      "id": "ultimate-champions",
+      "name": "Ultimate Champions"
     },
     "0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c": {
       "id": "ultra",
@@ -18248,9 +18268,9 @@
       "id": "vnx-exchange",
       "name": "VNX Exchange"
     },
-    "0x91e64f39c1fe14492e8fdf5a8b0f305bd218c8a1": {
-      "id": "vodi-x",
-      "name": "Vodi X"
+    "0x6d57b2e05f26c26b549231c866bdd39779e4a488": {
+      "id": "vnx-gold",
+      "name": "VNX Gold"
     },
     "0xed3d4e446a96dc3b181b64b75c3c70da41dc3cbe": {
       "id": "vodra",
@@ -18387,10 +18407,6 @@
     "0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74": {
       "id": "waltonchain",
       "name": "Waltonchain"
-    },
-    "0x0b6f3c17e1626a7cbfa4302ce4e3c45522d23a83": {
-      "id": "warden",
-      "name": "Warden"
     },
     "0xed40834a13129509a89be39a9be9c0e96a0ddd71": {
       "id": "warp-finance",
@@ -18708,6 +18724,10 @@
       "id": "wrapped-ar",
       "name": "Wrapped AR"
     },
+    "0xe4174143f0d6b1ebc0e25e1acd975c8f9fd06539": {
+      "id": "wrapped-aria",
+      "name": "Wrapped aRIA Currency"
+    },
     "0x0a8b16b27d5219c8c6b57d5442ce31d81573eee4": {
       "id": "wrapped-atromg8",
       "name": "Wrapped ATROMG8"
@@ -18798,7 +18818,7 @@
     },
     "0x2a69655c22eda32ff48d315bb26ed45f150700b4": {
       "id": "wrapped-tezos",
-      "name": "Wrapped Tezos"
+      "name": "StakerDAO Wrapped Tezos"
     },
     "0xa47c8bf37f92abed4a126bda807a7b7498661acd": {
       "id": "wrapped-ust",
@@ -19368,10 +19388,6 @@
       "id": "zenith-chain",
       "name": "Zenith Chain"
     },
-    "0x7d2ee0a3856cffd58fb0963c0e24bf1277a0be0e": {
-      "id": "zeno-inu",
-      "name": "Zeno Inu"
-    },
     "0xe95990825aab1a7f0af4cc648f76a3bcc99f25b2": {
       "id": "zenswap-network-token",
       "name": "Zenswap Network ZNT"
@@ -19468,10 +19484,6 @@
       "id": "zkspace",
       "name": "ZKSpace"
     },
-    "0x07c52c2537d84e532a9f15d32e152c8b94d2b232": {
-      "id": "zktube",
-      "name": "zkTube"
-    },
     "0xa8e7ad77c60ee6f30bac54e2e7c0617bd7b5a03e": {
       "id": "zlot",
       "name": "zLOT"
@@ -19492,10 +19504,6 @@
       "id": "zoracles",
       "name": "Zoracles"
     },
-    "0xfe39e6a32acd2af7955cb3d406ba2b55c901f247": {
-      "id": "ztcoin",
-      "name": "ZBG"
-    },
     "0x51a673e060e1ea091b23b53d192058ffe0f2d6b6": {
       "id": "zudgezury",
       "name": "ZudgeZury"
@@ -19506,7 +19514,7 @@
     },
     "0x015b94ab2b0a14a96030573fbcd0f3d3d763541f": {
       "id": "zunami-protocol",
-      "name": "Zunami Protocol"
+      "name": "Zunami USD"
     },
     "0x94d8db14831c2c08943798542c450df2844913e5": {
       "id": "zuplo",
@@ -19545,6 +19553,10 @@
     "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f": {
       "id": "1inch",
       "name": "1inch"
+    },
+    "0x3d468ab2329f296e1b9d8476bb54dd77d8c2320f": {
+      "id": "20weth-80bal",
+      "name": "20WETH-80BAL"
     },
     "0x5ceebb0947d58fabde2fc026ffe4b33ccfe1ba8b": {
       "id": "4int",
@@ -19721,6 +19733,14 @@
     "0x9d934de468689e07d3d6e1c6ee2093d5acbfd90c": {
       "id": "amgen",
       "name": "Amgen"
+    },
+    "0x9e84154798a96e8b50d96d423862da2c7c30ec4c": {
+      "id": "amlp",
+      "name": "aMLP"
+    },
+    "0xf63a19b7793a2779566068deb1e9102868db56e6": {
+      "id": "ammf",
+      "name": "aMMF"
     },
     "0x101a023270368c0d50bffb62780f4afd4ea79c35": {
       "id": "ankr",
@@ -20094,6 +20114,10 @@
       "id": "btu-protocol",
       "name": "BTU Protocol"
     },
+    "0x1af640ad5378144318fc7758f4c5546f6c435e88": {
+      "id": "buidl-acadamey",
+      "name": "BUIDL Acadamey"
+    },
     "0xe94845ac6782a2e71c407abe4d5201445c26a62b": {
       "id": "build",
       "name": "BUILD"
@@ -20137,6 +20161,10 @@
     "0x2727ab1c2d22170abc9b595177b2d5c6e1ab7b7b": {
       "id": "cartesi",
       "name": "Cartesi"
+    },
+    "0x7e7737c40878e720b32e7bc9cd096259f876d69f": {
+      "id": "catheon-gaming",
+      "name": "Catheon Gaming"
     },
     "0xcf74ae52ae2c848387e6cd0048e1ec5a93ee2c66": {
       "id": "cbomber",
@@ -20426,6 +20454,10 @@
       "id": "decentraweb",
       "name": "DecentraWeb"
     },
+    "0xe0bceef36f3a6efdd5eebfacd591423f8549b9d5": {
+      "id": "defactor",
+      "name": "Defactor"
+    },
     "0xc58158c14d4757ef36ce25e493758f2fceedec5d": {
       "id": "defi11",
       "name": "DeFi11"
@@ -20469,10 +20501,6 @@
     "0x3d1d2afd191b165d140e3e8329e634665ffb0e5e": {
       "id": "deri-protocol",
       "name": "Deri Protocol"
-    },
-    "0x33e02851d5a084137dc69b1a02ab2eeb7b7fe2a5": {
-      "id": "deswap",
-      "name": "Deswap"
     },
     "0xda43bfd7ecc6835aa6f1761ced30b986a574c0d2": {
       "id": "deusdc",
@@ -20842,6 +20870,10 @@
       "id": "frax-share",
       "name": "Frax Share"
     },
+    "0x9bedce29f79076b21dd04958a9fd4b22f63fd86d": {
+      "id": "freebie-life-finance",
+      "name": "Freebie Life Finance"
+    },
     "0xf78610d0a197842bf98ca45254897edd13c5d182": {
       "id": "freshcut-diamond",
       "name": "FreshCut Diamond"
@@ -20978,6 +21010,10 @@
       "id": "giddy",
       "name": "Giddy"
     },
+    "0x306e974624511e3937f37e551c5736f1b2ad21eb": {
+      "id": "gitshock-finance",
+      "name": "Gitshock Finance"
+    },
     "0xbe5cf150e1ff59ca7f2499eaa13bfc40aae70e78": {
       "id": "glitch-protocol",
       "name": "Glitch Protocol"
@@ -20994,9 +21030,13 @@
       "id": "gnome",
       "name": "GNOME"
     },
+    "0xb832b1c86c79fa560ee817001f7b7ada1f0cdc85": {
+      "id": "go2e-otm",
+      "name": "GO2E OTM"
+    },
     "0xb2780c1d05e50a98f8851668b1b59b92054d1fbc": {
       "id": "go2e-token",
-      "name": "GO2E Token"
+      "name": "GO2E GTE"
     },
     "0xdd2af2e723547088d3846841fbdcc6a8093313d6": {
       "id": "gogocoin",
@@ -21021,10 +21061,6 @@
     "0x17757dce604899699b79462a63dad925b82fe221": {
       "id": "grapeswap-finance",
       "name": "GrapeSwap Finance"
-    },
-    "0x190cec0657a02e9eab1c1df5d59f9139131cf539": {
-      "id": "gravis-finance",
-      "name": "Gravis Finance"
     },
     "0x874e178a2f3f3f9d34db862453cd756e7eab0381": {
       "id": "gravity-finance",
@@ -21177,6 +21213,10 @@
     "0xf287d97b6345bad3d88856b26fb7c0ab3f2c7976": {
       "id": "index-coop-matic-2x-flexible-leverage-index",
       "name": "Index Coop - MATIC 2x Flexible Leverage Index"
+    },
+    "0x000000ef379ee7f4c051f4b9af901a9219d9ec5c": {
+      "id": "infam",
+      "name": "Infam"
     },
     "0x46ab9e9153446d4016bcc3b6d4f6920d8b24e434": {
       "id": "infinite-arcade-tic",
@@ -21710,6 +21750,10 @@
       "id": "morpheus-labs",
       "name": "Morpheus Labs"
     },
+    "0x476718ea98525f6eeba3689b321e709522ae0930": {
+      "id": "morphswap",
+      "name": "Morphswap"
+    },
     "0x03e3369af9390493cb7cc599cd5233d50e674da4": {
       "id": "moss-governance",
       "name": "Moss Governance"
@@ -21757,6 +21801,10 @@
     "0xe8d17b127ba8b9899a160d9a07b69bca8e08bfc6": {
       "id": "nasdex-token",
       "name": "NASDEX"
+    },
+    "0x6bca3b77c1909ce1a4ba1a20d1103bde8d222e48": {
+      "id": "nature-based-offset",
+      "name": "Nature Based Offset"
     },
     "0x337bbd8e004c635d4b09f3e783742f2a8dc896e3": {
       "id": "navigator",
@@ -21970,6 +22018,10 @@
       "id": "paw-v2",
       "name": "Paw V2"
     },
+    "0xc79ae93d9c215eaa8c8da5c77e465bac7de28891": {
+      "id": "pax-world",
+      "name": "pax.world"
+    },
     "0xe580074a10360404af3abfe2d524d5806d993ea3": {
       "id": "paybolt",
       "name": "PayBolt"
@@ -22121,6 +22173,10 @@
     "0x7cc15fef543f205bf21018f038f591c6bada941c": {
       "id": "polycub",
       "name": "PolyCub"
+    },
+    "0x7a5dc8a09c831251026302c93a778748dd48b4df": {
+      "id": "polydex",
+      "name": "PolyDEX"
     },
     "0x8a953cfe442c5e8855cc6c61b1293fa648bae472": {
       "id": "polydoge",
@@ -22574,6 +22630,10 @@
       "id": "scoobi-doge",
       "name": "Scoobi Doge"
     },
+    "0xb32b9e8bc382e7bb64d8def2982cd19785ef64cf": {
+      "id": "seedbox",
+      "name": "SeedBox"
+    },
     "0xe51e88dd08499762b8e4eb3a9f3da9b8e79608c3": {
       "id": "sekuritance",
       "name": "Sekuritance"
@@ -22657,6 +22717,14 @@
     "0x1132f58810ee9ff13e97aeccd8dda688cc5eb8f4": {
       "id": "spacerat",
       "name": "SpaceRat"
+    },
+    "0xec6c6f7e666d8a3fa0fd612b97d6a6d9e7d1e3f3": {
+      "id": "space-rebase",
+      "name": "Space Rebase"
+    },
+    "0xcb3fe445e9c118e2232203b1d4a44f900cbd95b2": {
+      "id": "spaceshipx",
+      "name": "SpaceShipX"
     },
     "0xb53ec4ace420a62cfb75afdeba600d284777cd65": {
       "id": "space-token-bsc",
@@ -22813,10 +22881,6 @@
     "0x6d2a71f4edf10ab1e821b9b373363e1e24e5df6b": {
       "id": "tako-token",
       "name": "Tako"
-    },
-    "0x49e6a20f1bbdfeec2a8222e052000bbb14ee6007": {
-      "id": "tangible",
-      "name": "Tangible"
     },
     "0x10635bf5c17f5e4c0ed9012aef7c12f96a57a4dd": {
       "id": "tapmydata",
@@ -22986,6 +23050,10 @@
       "id": "ubiq",
       "name": "Ubiq"
     },
+    "0xed755dba6ec1eb520076cec051a582a6d81a8253": {
+      "id": "ultimate-champions",
+      "name": "Ultimate Champions"
+    },
     "0x2e4b0fb46a46c90cb410fe676f24e466753b469f": {
       "id": "umbra-network",
       "name": "Umbria Network"
@@ -23021,6 +23089,10 @@
     "0xb33eaad8d922b1083446dc23f610c2567fb5180f": {
       "id": "uniswap",
       "name": "Uniswap"
+    },
+    "0x2b3ecb0991af0498ece9135bcd04013d7993110c": {
+      "id": "universal-basic-offset",
+      "name": "Universal Basic Offset"
     },
     "0x8c4476dfec8e7eedf2de3e9e9461b7c14c828d46": {
       "id": "unix",
@@ -23062,6 +23134,10 @@
       "id": "vault-hill-city",
       "name": "Vault Hill City"
     },
+    "0x8497842420cfdbc97896c2353d75d89fc8d5be5d": {
+      "id": "versagames",
+      "name": "VersaGames"
+    },
     "0x48c97cf0a3837106cb58009d308df4dfabe441c7": {
       "id": "verse",
       "name": "Verse"
@@ -23090,9 +23166,17 @@
       "id": "vmates",
       "name": "Vmates"
     },
+    "0xf46cb10e8c5fb9368bbf497a3176b80c0af66d44": {
+      "id": "vortex-protocol",
+      "name": "Vortex Protocol"
+    },
     "0xd0258a3fd00f38aa8090dfee343f10a9d4d30d3f": {
       "id": "voxies",
       "name": "Voxies"
+    },
+    "0xe84c2edca71fc3cc570c70665178d90c8721623b": {
+      "id": "vrjam",
+      "name": "VRJAM"
     },
     "0x430ef9263e76dae63c84292c3409d61c598e9682": {
       "id": "vulcan-forged",
@@ -23149,6 +23233,10 @@
     "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619": {
       "id": "weth",
       "name": "WETH"
+    },
+    "0xb9585ec9d4c97ad9ded7250bb9a199fe8eed0eca": {
+      "id": "whale",
+      "name": "WHALE"
     },
     "0x0cfbbb89fd58f6b49b7bf5665397ddc84003d47c": {
       "id": "whey",
@@ -23257,6 +23345,10 @@
     "0xdc3326e71d45186f113a2f448984ca0e8d201995": {
       "id": "xsgd",
       "name": "XSGD"
+    },
+    "0x9f64d1aacb129b844500119b50938c57aa9ad6e5": {
+      "id": "xshare",
+      "name": "xShare"
     },
     "0x6cd6cb131764c704ba9167c29930fbdc38901ab7": {
       "id": "xwin-finance",
@@ -23576,10 +23668,6 @@
       "id": "keep-network",
       "name": "Keep Network"
     },
-    "0x8dbad759014b0aa140ecd7aed0e052b4f5c63be1": {
-      "id": "kyber-network-crystal",
-      "name": "Kyber Network Crystal"
-    },
     "0xb506a79b296b78965f0a5c15e1474b026c23d9fa": {
       "id": "loom-network-new",
       "name": "Loom Network (NEW)"
@@ -23610,7 +23698,7 @@
     },
     "0xd2d28530a79634423154c1fd5bdb7c1b0216cd1a": {
       "id": "metal",
-      "name": "Metal"
+      "name": "Metal DAO"
     },
     "0x7e58cef7c589e0e1771b9c049cba313fdec31976": {
       "id": "mirror-protocol",
@@ -24876,6 +24964,10 @@
       "id": "crabada",
       "name": "Crabada"
     },
+    "0x3947146f331b9ef6448064c6311cdd24d9467a1a": {
+      "id": "creama",
+      "name": "Creama"
+    },
     "0x155f794b56353533e0afbf76e1b1fc57dfad5bd7": {
       "id": "cream-shares",
       "name": "IceCream Shares"
@@ -25048,6 +25140,10 @@
       "id": "frax-share",
       "name": "Frax Share"
     },
+    "0x9bedce29f79076b21dd04958a9fd4b22f63fd86d": {
+      "id": "freebie-life-finance",
+      "name": "Freebie Life Finance"
+    },
     "0x7dfce792c83f283ecfe7ea7ed308f9b891073540": {
       "id": "frozentomb",
       "name": "Frozentomb"
@@ -25075,6 +25171,10 @@
     "0x0b53b5da7d0f275c31a6a182622bdf02474af253": {
       "id": "ghostmarket",
       "name": "GhostMarket"
+    },
+    "0x306e974624511e3937f37e551c5736f1b2ad21eb": {
+      "id": "gitshock-finance",
+      "name": "Gitshock Finance"
     },
     "0x62edc0692bd897d2295872a9ffcac5425011c661": {
       "id": "gmx",
@@ -25290,7 +25390,7 @@
     },
     "0x8b6663725d7e7368b01eefddc16be085e492498e": {
       "id": "kishimoto-inu",
-      "name": "Kishimoto Inu"
+      "name": "Kishimoto (old)"
     },
     "0x788ae3b5d153d49f8db649aacba1857f744b739e": {
       "id": "kitty-finance",
@@ -25406,7 +25506,7 @@
     },
     "0xd9d90f882cddd6063959a9d837b05cb748718a05": {
       "id": "more-token",
-      "name": "More"
+      "name": "Moremoney Finance"
     },
     "0x05e481b19129b560e921e487adb281e70bdba463": {
       "id": "morphie",
@@ -26682,6 +26782,10 @@
       "id": "ginspirit",
       "name": "GinSpirit"
     },
+    "0x306e974624511e3937f37e551c5736f1b2ad21eb": {
+      "id": "gitshock-finance",
+      "name": "Gitshock Finance"
+    },
     "0x3389492f36642f27f7bf4a7749fb3fc2c8fbb7ee": {
       "id": "gizadao",
       "name": "GizaDao"
@@ -26796,7 +26900,7 @@
     },
     "0x8b6663725d7e7368b01eefddc16be085e492498e": {
       "id": "kishimoto-inu",
-      "name": "Kishimoto Inu"
+      "name": "Kishimoto (old)"
     },
     "0x765277eebeca2e31912c9946eae1021199b39c61": {
       "id": "kyber-network",
@@ -27422,6 +27526,10 @@
       "id": "wmatic",
       "name": "Wrapped Matic"
     },
+    "0x911d1feae99e112b5014cfa60038325d863352f1": {
+      "id": "wolf-ventures",
+      "name": "Wolf Ventures"
+    },
     "0xd0660cd418a64a1d44e9214ad8e459324d8157f1": {
       "id": "woofy",
       "name": "Woofy"
@@ -27575,6 +27683,10 @@
     "0xea62791aa682d455614eaa2a12ba3d9a2fd197af": {
       "id": "flux-token",
       "name": "FluxProtocol"
+    },
+    "0x306e974624511e3937f37e551c5736f1b2ad21eb": {
+      "id": "gitshock-finance",
+      "name": "Gitshock Finance"
     },
     "0xc2ac78ffddf39e5cd6d83bbd70c1d67517c467ef": {
       "id": "golden-banana",
@@ -27834,10 +27946,6 @@
       "id": "7up",
       "name": "7up"
     },
-    "0x9cefd9588f076c5f805341864adc8a6f077a5b99": {
-      "id": "867",
-      "name": "867"
-    },
     "0x003f83da9868acc151be89eefa4d19838ffe5d64": {
       "id": "8bit-doge",
       "name": "8Bit Doge"
@@ -27881,10 +27989,6 @@
     "0x2136cd209bb3d8e4c008ec2791b5d6790b5e33a9": {
       "id": "able-finance",
       "name": "Able Finance"
-    },
-    "0xa897515b2f01733f450a1da9e51e6df1ad4fa75e": {
-      "id": "abura-farm",
-      "name": "Abura Farm"
     },
     "0x9eb6935aea6afb5bc6d1a74be0c2f78280ab6448": {
       "id": "aca-token",
@@ -28065,6 +28169,10 @@
     "0x2f4e9c97aaffd67d98a640062d90e355b4a1c539": {
       "id": "afrostar",
       "name": "Afrostar"
+    },
+    "0x88888888faedeb25b94a015af705f18666079038": {
+      "id": "agame",
+      "name": "AGAME"
     },
     "0x4ec16da4c9007462de151c0da9f5426c69978a7b": {
       "id": "aga-rewards-2",
@@ -28374,6 +28482,10 @@
       "id": "ampleforth",
       "name": "Ampleforth"
     },
+    "0x335f6e0e804b70a96bf9eb8af31588942e9b2515": {
+      "id": "ampleswap",
+      "name": "AmpleSwap"
+    },
     "0x5ae89b52f6b5d25eba50f0441f91a81968689d95": {
       "id": "a-nation",
       "name": "A-Nation"
@@ -28514,10 +28626,6 @@
       "id": "ape-king",
       "name": "Ape King"
     },
-    "0x54283eb77cc33182c06b311248c48c73adf4e2ef": {
-      "id": "apelab",
-      "name": "ApeLab"
-    },
     "0xed3d88d3321f82e5c25ca9ac6d5b427ec93f567e": {
       "id": "apemove",
       "name": "APEmove"
@@ -28597,6 +28705,10 @@
     "0xf59a047b8a7aa114f03448362d56936693c00635": {
       "id": "aquatank",
       "name": "AquaTank"
+    },
+    "0xf9e5994d257102ca973db682adf435a0f78c5b4d": {
+      "id": "aqua-unicorn",
+      "name": "Aqua Unicorn"
     },
     "0x557a09f2a257e7ea0c9edd45f4abc1f5eca05dff": {
       "id": "arabella",
@@ -28834,10 +28946,6 @@
       "id": "astronaut",
       "name": "Astronaut"
     },
-    "0x544de71b4a2c2484b058228827a4e8001c99c1af": {
-      "id": "astronos",
-      "name": "Astronos"
-    },
     "0xf008b870e673a14564cfcc2aeaa4ed3cf132b9f4": {
       "id": "astrosanta",
       "name": "AstroSanta"
@@ -28993,10 +29101,6 @@
     "0xbd29490383edfd560426c3b63d01534408bc2da6": {
       "id": "avaxlauncher",
       "name": "Avaxlauncher"
-    },
-    "0x31db9fae1747a84afed39ef28d76cd1ccde96e38": {
-      "id": "avaxup",
-      "name": "AvaxUp"
     },
     "0x891c2fe01263e1154ef0e4648f4c12d402aa8e3d": {
       "id": "avefarm",
@@ -29366,10 +29470,6 @@
       "id": "bake-coin",
       "name": "Bake Coin"
     },
-    "0xdaef65a2d139893898ac4906dc1965abc1527ecd": {
-      "id": "bakedcake",
-      "name": "BakedCake Finance"
-    },
     "0xe02df9e3e622debdd69fb838bb799e3f168902c5": {
       "id": "bakerytoken",
       "name": "BakerySwap"
@@ -29422,7 +29522,7 @@
       "id": "banque-universal",
       "name": "Banque Universal"
     },
-    "0xac019ee3863984ea66ab357a491d37fb2c9c6f17": {
+    "0x1b7cc2e9dfeadc0aa3c283d727c50df84558da59": {
       "id": "bao",
       "name": "BAO"
     },
@@ -29650,6 +29750,10 @@
       "id": "betero",
       "name": "Betero"
     },
+    "0xc8dc1b4812409c9e335e39f6781b11bf5f8a7a48": {
+      "id": "betgosu",
+      "name": "BetGosu"
+    },
     "0x3e0a7c7db7bb21bda290a80c9811de6d47781671": {
       "id": "betswirl",
       "name": "BetSwirl"
@@ -29673,6 +29777,10 @@
     "0xbb46693ebbea1ac2070e59b4d043b47e2e095f86": {
       "id": "bfg-token",
       "name": "BetFury"
+    },
+    "0xa5438df34698df262d5ed463f10387c998edc24a": {
+      "id": "bfk-warzone",
+      "name": "BFK WARZONE"
     },
     "0x874966221020d6ac1aed0e2cfad9cbfee0ba713b": {
       "id": "bhbd",
@@ -29934,10 +30042,6 @@
       "id": "bitblocks-fire",
       "name": "Bitblocks Fire"
     },
-    "0x9045b0eda6b6a556cf9b3d81c2db47411714f847": {
-      "id": "bitblocks-project",
-      "name": "BitBlocks"
-    },
     "0xd48474e7444727bf500a32d5abe01943f3a59a64": {
       "id": "bitbook-token",
       "name": "BitBook"
@@ -30126,10 +30230,6 @@
       "id": "black-whale",
       "name": "Black Whale"
     },
-    "0xafe82cf5200ade2457090d5ccbba1d0577b5db50": {
-      "id": "blazar",
-      "name": "BLAZAR"
-    },
     "0x393d87e44c7b1f5ba521b351532c24ece253b849": {
       "id": "blind-boxes",
       "name": "Blind Boxes"
@@ -30261,6 +30361,10 @@
     "0xd045d776d894ec6e8b685dbef196527ea8720bab": {
       "id": "blueark",
       "name": "BlueArk"
+    },
+    "0x81aa4d3ad2a86e7a2cd44630c36ccaacd6b30568": {
+      "id": "blueart",
+      "name": "BlueArt"
     },
     "0x217ca5ce67166a3024527ee3a3289635603aed31": {
       "id": "bluebenx",
@@ -30421,10 +30525,6 @@
     "0xa30baba694b8fc3524c46edc5af295f55381dc60": {
       "id": "boorio",
       "name": "Boorio"
-    },
-    "0x2f87afe4bc8c989fa488cb3fd6fe6ac2976b0743": {
-      "id": "boozedoge",
-      "name": "BoozeDoge"
     },
     "0x70e48eb0881a8c56baad37eb4491ea85eb47b4b2": {
       "id": "bored-apemove",
@@ -30666,6 +30766,10 @@
       "id": "bullbankers",
       "name": "BullBankers"
     },
+    "0x37e5da11b6a4dc6d2f7abe232cdd30b0b8fc63b1": {
+      "id": "bull-btc-club",
+      "name": "Bull BTC Club"
+    },
     "0xf483af09917ba63f1e274056978036d266eb56e6": {
       "id": "bull-coin",
       "name": "Bull Coin"
@@ -30802,10 +30906,6 @@
       "id": "byteball",
       "name": "Obyte"
     },
-    "0x72a634a80d7dd48f83785bcd04fc603418f99ef7": {
-      "id": "bytedex",
-      "name": "ByteDex"
-    },
     "0x8ec7e8c12947642a6bd232a73bbd7b2ff310a588": {
       "id": "byteex",
       "name": "ByteEx"
@@ -30909,10 +31009,6 @@
     "0xdbb66eb9f4d737b49ae5cd4de25e6c8da8b034f9": {
       "id": "cannumo",
       "name": "Cannumo"
-    },
-    "0x007ea5c0ea75a8df45d288a4debdd5bb633f9e56": {
-      "id": "canyacoin",
-      "name": "CanYaCoin"
     },
     "0x407ee64da5bc8107ea8e9cf132b33092374e5894": {
       "id": "capitol",
@@ -31230,6 +31326,10 @@
       "id": "cheersland",
       "name": "CheersLand"
     },
+    "0x08aed8578daabf12d48031fa5d9727e4afd42dee": {
+      "id": "cheese",
+      "name": "Cheese"
+    },
     "0xc7091aa18598b87588e37501b6ce865263cd67ce": {
       "id": "cheesecakeswap",
       "name": "CheesecakeSwap"
@@ -31390,6 +31490,10 @@
       "id": "citystates-medieval",
       "name": "CityStates Medieval"
     },
+    "0xb3ba14f6a482dfdebc3c2fb726ac10df91ee504c": {
+      "id": "city-tycoon-games",
+      "name": "City Tycoon Games"
+    },
     "0x8ce7fc007fc5d1dea63fed829e11eeddd6406dff": {
       "id": "civic-power",
       "name": "Civic Power"
@@ -31401,10 +31505,6 @@
     "0xe57edc546ee99f17a5d6e32c2457b4569ecd40f8": {
       "id": "class-coin",
       "name": "Class Coin"
-    },
-    "0x8f5f8e30ab8aff4cd4a290b860e6f372c5d1a3f5": {
-      "id": "classic-coin",
-      "name": "Classic Coin"
     },
     "0xb68a34756d8a92ccc821effa03d802846594b64e": {
       "id": "classicdoge",
@@ -31594,10 +31694,6 @@
       "id": "coinradr",
       "name": "CoinRadr"
     },
-    "0x8697c37ecdbdb4eb5e24f19d7d294ea76291b91c": {
-      "id": "coinsale",
-      "name": "Coinsale"
-    },
     "0xd41c4805a9a3128f9f7a7074da25965371ba50d5": {
       "id": "coinscope",
       "name": "Coinscope"
@@ -31697,10 +31793,6 @@
     "0x471ae8201d8ebcd4411dd02a7091b00829995a44": {
       "id": "conjee",
       "name": "Conjee"
-    },
-    "0x3746519cfb4a0ca13745a38326282585de95e0a5": {
-      "id": "connector-coin",
-      "name": "Connector Coin"
     },
     "0x17b6115a4d0292745d122a49ade76ed5ac16b19d": {
       "id": "connect-token",
@@ -31962,6 +32054,10 @@
       "id": "crusaders-of-crypto",
       "name": "Crusaders of Crypto"
     },
+    "0xc209831f7349d4e200d420326b3401899ab9ae68": {
+      "id": "crypteriumcoin",
+      "name": "Crypteriumcoin"
+    },
     "0xda6802bbec06ab447a68294a63de47ed4506acaa": {
       "id": "cryptertoken",
       "name": "Crypter"
@@ -31974,9 +32070,9 @@
       "id": "cryptia",
       "name": "Cryptia"
     },
-    "0xd7314a3b4c80e95125c56a3e7eb2d9f87e9e35b6": {
-      "id": "crypto-bank-token",
-      "name": "Crypto Bank Token"
+    "0xec0ad1b4d51b056a357fc9acb3f1881c9d3628a7": {
+      "id": "crypto-arc",
+      "name": "Crypto ARC"
     },
     "0x5f64b52b76c708030185aa79a3af383a96c2a6d3": {
       "id": "cryptobay",
@@ -32049,10 +32145,6 @@
     "0x4f39c3319188a723003670c3f9b9e7ef991e52f3": {
       "id": "crypto-fight-club",
       "name": "Crypto Fight Club"
-    },
-    "0xd24f90a772a257368b101da707f1d22ff27c1b12": {
-      "id": "cryptofootball",
-      "name": "CryptoFootball"
     },
     "0xf4c375fd1c53f08ad597cf1db60b7c23153db3bc": {
       "id": "cryptogamez",
@@ -32306,10 +32398,6 @@
       "id": "ctc-2",
       "name": "CTC"
     },
-    "0xc2f2b22adfddde6b0931bf8c304a7e95ccbbc109": {
-      "id": "c-token-2",
-      "name": "Carbon Coin"
-    },
     "0xb850cac12ab85d4400db61ac78dc5fc2418b6868": {
       "id": "ctomorrow-platform",
       "name": "Ctomorrow Platform"
@@ -32325,10 +32413,6 @@
     "0x950be31c6ba1962f2b2bccdd47f7ecb4d1d099c2": {
       "id": "cubics",
       "name": "Cubics"
-    },
-    "0x34681c1035f97e1edcccec5f142e02ff81a3a230": {
-      "id": "cubiex",
-      "name": "Cubiex"
     },
     "0x39bff8613defd221b0410ed3d4e5c07512d55f2d": {
       "id": "cubiex-power",
@@ -32621,6 +32705,10 @@
     "0xa5342d72d04c133180f376753f90a4b2eee29bb3": {
       "id": "decentralized-mining-exchange",
       "name": "Decentralized Mining Exchange"
+    },
+    "0x1ebb8947bdcd3079d910caaf8d9ae1a57a300be3": {
+      "id": "decentralized-pirates",
+      "name": "Decentralized Pirates"
     },
     "0xcb1ddc8f705e2737685a9c1e6b84a63d04d200e5": {
       "id": "decentralized-united",
@@ -33174,10 +33262,6 @@
       "id": "dogebonk",
       "name": "DogeBonk"
     },
-    "0x7b099edc196de9504a9f7bb0c3ec2aca26e7237e": {
-      "id": "doge-cat",
-      "name": "DOGE-CAT"
-    },
     "0x3780e00d4c60887af38345ccd44f7617dbfb10a0": {
       "id": "dogecoin-2",
       "name": "Dogecoin 2.0"
@@ -33237,6 +33321,10 @@
     "0x1b442512ed276e3e874149e4f4e51f06aee8b58c": {
       "id": "dogekongzilla",
       "name": "DogeKongZilla"
+    },
+    "0x7bd6fabd64813c48545c9c0e312a0099d9be2540": {
+      "id": "dogelon-mars",
+      "name": "Dogelon Mars"
     },
     "0xbeeee429f8fb7ac8435902707639518d246780c7": {
       "id": "dogemetaverse",
@@ -34270,10 +34358,6 @@
       "id": "exobots",
       "name": "Exobots"
     },
-    "0xc18652048c0bedaab6b1ae9c853e7589c59c1df4": {
-      "id": "ex-sports",
-      "name": "EX Sports"
-    },
     "0x80dba9c32b7ab5445e482387a5522e24c0ba4c24": {
       "id": "extradna",
       "name": "extraDNA"
@@ -34378,9 +34462,9 @@
       "id": "fantasy-war",
       "name": "Fantasy War"
     },
-    "0x2a6ecc606ad1bff231da122c32894840662a8b96": {
-      "id": "fantasy-world-gold",
-      "name": "Fantasy World Gold"
+    "0x00f692b0c9b9182fb7b7a4a2e765febc12322dd3": {
+      "id": "fan-tokens-football",
+      "name": "Fan Tokens Football"
     },
     "0xad29abb318791d579433d831ed122afeaf29dcfe": {
       "id": "fantom",
@@ -34398,9 +34482,9 @@
       "id": "farmercryptocoin",
       "name": "FarmerCryptoCoin"
     },
-    "0x288f7692a78aa9906cf5790af78a672078070535": {
+    "0xee0736c93e98b2e9fbf11f47db19e7b68db71e94": {
       "id": "farmerdoge",
-      "name": "FarmerDoge V3"
+      "name": "FarmerDoge"
     },
     "0x82b43184b4020f863220c53d82713c24c6e39b28": {
       "id": "farming-paradise",
@@ -34834,6 +34918,10 @@
       "id": "footballgo",
       "name": "FootBallGo"
     },
+    "0x0416846db6bea02588e546271d4d83c4061b7757": {
+      "id": "football-inu-2",
+      "name": "Football Inu"
+    },
     "0x6507458bb53aec6be863161641ec28739c41cc97": {
       "id": "footballstars",
       "name": "FootballStars"
@@ -34866,10 +34954,6 @@
       "id": "foreverbnb",
       "name": "ForeverBNB"
     },
-    "0x95637d4fbe7153dcc3e26e71bde7a2d82621f083": {
-      "id": "foreverfomo",
-      "name": "ForeverFOMO"
-    },
     "0xf5c2a8a14fa5c71c4f2684207398fbf30f835d87": {
       "id": "forevermoon",
       "name": "ForeverMoon"
@@ -34897,6 +34981,10 @@
     "0x4437743ac02957068995c48e08465e0ee1769fbe": {
       "id": "fortress",
       "name": "Fortress Loans"
+    },
+    "0x2d716831d82d837c3922ad8c10fe70757b5814fe": {
+      "id": "fortuneum",
+      "name": "Fortuneum"
     },
     "0xc54a4640907044283e8e4885090e205992b9813e": {
       "id": "forus",
@@ -34937,6 +35025,10 @@
     "0xae7300b51a8cd43d5b74be0dd5047715b7017e3e": {
       "id": "fragments-of-arker",
       "name": "Fragments of Arker"
+    },
+    "0x1a73308d8eeb3c1a2b771e9ace73508c52706b76": {
+      "id": "fragmint",
+      "name": "Fragmint"
     },
     "0x6f6312245b45f96461b10647097187cc2cbdb374": {
       "id": "france-fan-token",
@@ -35302,6 +35394,10 @@
       "id": "gamefi-token",
       "name": "GameFi Protocol"
     },
+    "0xd2359c576632234d1354b20bf51b0277be20c81e": {
+      "id": "gameguru",
+      "name": "GameGuru"
+    },
     "0xd32af8bee4095a84e258a82b512356dfc0a7d2c0": {
       "id": "gamenft",
       "name": "GameNFT"
@@ -35586,6 +35682,10 @@
       "id": "giotto",
       "name": "GIOTTO"
     },
+    "0x306e974624511e3937f37e551c5736f1b2ad21eb": {
+      "id": "gitshock-finance",
+      "name": "Gitshock Finance"
+    },
     "0x75f53011f6d51c60e6dcbf54a8b1bcb54f07f0c9": {
       "id": "glimpse",
       "name": "Glimpse"
@@ -35814,10 +35914,6 @@
       "id": "graphene",
       "name": "Graphene"
     },
-    "0x190cec0657a02e9eab1c1df5d59f9139131cf539": {
-      "id": "gravis-finance",
-      "name": "Gravis Finance"
-    },
     "0xa6168c7e5eb7c5c379f3a1d7cf1073e09b2f031e": {
       "id": "graviton-zero",
       "name": "Graviton Zero"
@@ -36021,6 +36117,10 @@
     "0xfc646d0b564bf191b3d3adf2b620a792e485e6da": {
       "id": "halfpizza",
       "name": "Half Pizza"
+    },
+    "0x5e2dd42b97fb9c01a1aee381568797d973ce72d2": {
+      "id": "halloween-crows",
+      "name": "Halloween Crows"
     },
     "0x2c0e76dade015bc390a13c1b80cc1bafd9edd326": {
       "id": "halloween-floki",
@@ -36310,6 +36410,10 @@
       "id": "hippo-inu",
       "name": "Hippo Inu"
     },
+    "0xa0ed3c520dc0632657ad2eaaf19e26c4fd431a84": {
+      "id": "hippopotamus",
+      "name": "Hippopotamus"
+    },
     "0xe6ffa2e574a8bbeb5243d2109b6b11d4a459f88b": {
       "id": "hippo-token",
       "name": "Hippo"
@@ -36369,6 +36473,10 @@
     "0x7b8656c95944f1d6e2e6deadedd0392a4138d8dd": {
       "id": "holiday-token",
       "name": "Holiday"
+    },
+    "0x1337bae199225795070dcf4f7aea733296ba77ea": {
+      "id": "holoclear",
+      "name": "HOLOCLEAR"
     },
     "0xa797fa4bda7c5a4b3afe73573b9d2ab942365c6f": {
       "id": "hololoot",
@@ -37026,9 +37134,13 @@
       "id": "izanagi",
       "name": "Izanagi"
     },
-    "0x8dcff5ba47aa24cfeb73a2262b7cd6d18739600c": {
-      "id": "j9casino",
-      "name": "J9CASINO"
+    "0x8880def7d2753cafda8af3a32b381ad8f856e4a3": {
+      "id": "izombie",
+      "name": "iZombie"
+    },
+    "0x0627e7ee0d14fcdd2ff30d1563aebdbccec678be": {
+      "id": "jackpotdoge",
+      "name": "JackpotDoge"
     },
     "0x95aa33319698cf67c7ab33bb23a65e9d38397187": {
       "id": "jackpot-universe",
@@ -37077,6 +37189,10 @@
     "0x058a7af19bdb63411d0a84e79e3312610d7fa90c": {
       "id": "jedstar",
       "name": "JEDSTAR"
+    },
+    "0x7874caff04afb8b6f5cbbe3ebec3f83fcd882272": {
+      "id": "jeet-detector-bot",
+      "name": "Jeet Detector Bot"
     },
     "0xdd531f921e78fe90ab7c509fb4beb0ceb1a26244": {
       "id": "jellybeancash",
@@ -37310,10 +37426,6 @@
       "id": "kazoku-inu",
       "name": "Kazoku INU"
     },
-    "0x030708208dc29b1688b212081f31cdb59097a67d": {
-      "id": "kbn",
-      "name": "Koban"
-    },
     "0x57f239e1e62abd0f68d7b7c0fe11df25b3217d99": {
       "id": "kcc-memepad",
       "name": "KCC MemePad"
@@ -37490,9 +37602,13 @@
       "id": "kirobo",
       "name": "Kirobo"
     },
+    "0xae36155a55f04a696b8362777620027882b31db5": {
+      "id": "kishimoto",
+      "name": "Kishimoto"
+    },
     "0xcab599d699f818e6cefd07cf54f448dab9367b05": {
       "id": "kishimoto-inu",
-      "name": "Kishimoto Inu"
+      "name": "Kishimoto (old)"
     },
     "0x97ad911101d4285a13a3240ee35618edc511a435": {
       "id": "kishu-baby",
@@ -37654,6 +37770,10 @@
       "id": "kurai-inu",
       "name": "Kurai Inu"
     },
+    "0xe53b185ed220ab14460a9a2ac46e096ff3a90171": {
+      "id": "kuwa-oracle",
+      "name": "Kuwa Oracle"
+    },
     "0x987a6509a5927dd8046e4ba9485c7e0e24c832a6": {
       "id": "kuy-token",
       "name": "KUY"
@@ -37705,10 +37825,6 @@
     "0x02678125fb30d0fe77fc9d10ea531f8b4348c603": {
       "id": "lakeviewmeta",
       "name": "LakeViewMeta"
-    },
-    "0x537a7e796a3c212ff82d4b4790973ed5ae288bc0": {
-      "id": "lambo",
-      "name": "Lambo"
     },
     "0x70d7109d3afe13ee8f9015566272838519578c6b": {
       "id": "lamden",
@@ -37941,10 +38057,6 @@
     "0x5d684adaf3fcfe9cfb5cede3abf02f0cdd1012e3": {
       "id": "lien",
       "name": "Lien"
-    },
-    "0x72f05a7d3884570a50cd6a491f3629370304fa18": {
-      "id": "lifebird",
-      "name": "LIFEBIRD"
     },
     "0xd9474595edb03e35c5843335f90eb18671921246": {
       "id": "life-coin",
@@ -38362,6 +38474,10 @@
       "id": "luxeracing",
       "name": "LuxeRacing"
     },
+    "0x13d5e09c1e2648cb94d1ad67ed266d581f6e1926": {
+      "id": "luxetoken",
+      "name": "LuxeToken"
+    },
     "0x291c4e4277f8717e0552d108dbd7f795a9fef016": {
       "id": "luzion-protocol",
       "name": "Luzion Protocol"
@@ -38389,6 +38505,10 @@
     "0x4aad6a01068c2621545d087a3c5281837112585b": {
       "id": "madagascar-token",
       "name": "Madagascar"
+    },
+    "0x1f91f6c93023a441c3a72b24120e19acef677911": {
+      "id": "madchad",
+      "name": "MadChad"
     },
     "0x3ef144cb45c8a390eb207a6aa9bfcf3da639cb5c": {
       "id": "maga-coin",
@@ -38744,7 +38864,7 @@
     },
     "0x4518231a8fdf6ac553b9bbd51bbb86825b583263": {
       "id": "media-licensing-token",
-      "name": "Media Licensing"
+      "name": "Media Licensing Token"
     },
     "0x23316e6b09e8f4f67b95d53b4f1e59d1fb518f29": {
       "id": "medicalveda",
@@ -39261,10 +39381,6 @@
     "0x08b87b1cfdba00dfb79d77cac1a5970ba6c9cde2": {
       "id": "metarix",
       "name": "Metarix"
-    },
-    "0xe833dc9b5a21dabc3ed8559858caa92279ac54dc": {
-      "id": "metarobox",
-      "name": "Metarobox"
     },
     "0x6fced7dfda0c5c0e213d8ade9af6dc6c727a0840": {
       "id": "metaroid-nft",
@@ -40110,6 +40226,10 @@
       "id": "morphie",
       "name": "Morphie"
     },
+    "0x476718ea98525f6eeba3689b321e709522ae0930": {
+      "id": "morphswap",
+      "name": "Morphswap"
+    },
     "0x87bade473ea0513d4aa7085484aeaa6cb6ebe7e3": {
       "id": "mor-stablecoin",
       "name": "Mor Stablecoin"
@@ -40133,6 +40253,10 @@
     "0x211fa9e7e390c29b0ab1a9248949a0ab716c4154": {
       "id": "mother-of-memes",
       "name": "Mother of Memes"
+    },
+    "0x5da6860540e088273839e4b4da522bb596776f90": {
+      "id": "motoverse",
+      "name": "Motoverse"
     },
     "0x4c97c901b5147f8c1c7ce3c5cf3eb83b44f244fe": {
       "id": "mound-token",
@@ -40189,10 +40313,6 @@
     "0xce262761df57c72999146b7a6a752da03835db4a": {
       "id": "mu-continent",
       "name": "Mu Continent"
-    },
-    "0xa1fa5df3a7c98cbd97d4c4f72a995150ee4a822b": {
-      "id": "mudra",
-      "name": "Mudra"
     },
     "0x4505e2ae4f9c512fd2e7e4d99c99dc94e0e93ccb": {
       "id": "mudra-mdr",
@@ -40358,10 +40478,6 @@
       "id": "my-universe",
       "name": "My Universe"
     },
-    "0x8aed24bf6e0247be51c57d68ad32a176bf86f4d9": {
-      "id": "mywish",
-      "name": "MyWish"
-    },
     "0xc35a2cbe337f1f6434f61fc167ae70b90ae6d212": {
       "id": "nabob",
       "name": "Nabob"
@@ -40486,6 +40602,10 @@
       "id": "neonomad-finance",
       "name": "Neonomad Finance"
     },
+    "0x2f725cb7b6827bb4b02db1369b1e4c6a33e5633d": {
+      "id": "neorbit",
+      "name": "Neorbit"
+    },
     "0x42f6f551ae042cbe50c739158b4f0cac0edb9096": {
       "id": "nerve-finance",
       "name": "Nerve Finance"
@@ -40590,10 +40710,6 @@
       "id": "nft11",
       "name": "NFT11"
     },
-    "0x374fe834fa8c72875bf49ab015026a31e20e1763": {
-      "id": "nft-all-best-ico",
-      "name": "NFT All Best ICO"
-    },
     "0xf8d954168fbbf579f8fad5f7583d4f76f10ae97d": {
       "id": "nft-alley",
       "name": "NFT Alley"
@@ -40685,10 +40801,6 @@
     "0x5d8c0e2288704d566c62c9c4dd849c389d4d482e": {
       "id": "nftnetwork",
       "name": "NFTNetwork"
-    },
-    "0x011febca40b8e6b97856717eef14914f2ab74f42": {
-      "id": "nftopia",
-      "name": "NFTOPIA"
     },
     "0x4a72af9609d22bf2ff227aec333c7d0860f3db36": {
       "id": "nftpad",
@@ -40934,10 +41046,6 @@
       "id": "o5o",
       "name": "O5O"
     },
-    "0x80923b4dc6db8467575fb2bd2088c7c37fe26e5f": {
-      "id": "oasis-token",
-      "name": "Oasis Token"
-    },
     "0xb5be8d87fce6ce87a24b90abdb019458a8ec31f9": {
       "id": "obortech",
       "name": "Obortech"
@@ -40961,10 +41069,6 @@
     "0xb0461d7e8212d311b842a58e9989ede849ac6816": {
       "id": "oceanland",
       "name": "OceanLand"
-    },
-    "0x7769d930bc6b087f960c5d21e34a4449576cf22a": {
-      "id": "oceans-finance",
-      "name": "Oceans Finance [OLD]"
     },
     "0x2a54f9710dded0ebdde0300bb9ac7e21cf0e8da5": {
       "id": "oceans-finance-v2",
@@ -41229,6 +41333,10 @@
     "0x686318000d982bc8dcc1cdcf8ffd22322f0960ed": {
       "id": "opulous",
       "name": "Opulous"
+    },
+    "0x81f52dd5fce4d1f24e5aa839df782244be867b14": {
+      "id": "oracle-dao",
+      "name": "Oracle Dao"
     },
     "0x88c676fc777c225b69869aeef5d10535de1e4f5d": {
       "id": "oragonx",
@@ -41777,6 +41885,10 @@
     "0xb9784c1633ef3b839563b988c323798634714368": {
       "id": "phoswap",
       "name": "Phoswap"
+    },
+    "0xc669a70e0b3d07e3514afd97ebfb3d134077a4a1": {
+      "id": "pias",
+      "name": "PIAS"
     },
     "0x92cba2826ed6fdf2583b595a47888ce367100df4": {
       "id": "picogo",
@@ -42336,6 +42448,10 @@
     },
     "0x2668babeab11780c516b1d3ad02011668aff8aa0": {
       "id": "primal",
+      "name": "Primal [OLD]"
+    },
+    "0x7ebc642573f8e973198972746c28454ba9de71d8": {
+      "id": "primal-2",
       "name": "Primal"
     },
     "0xa19863e302fd1b41276fce5a48d9c511dbeef34c": {
@@ -42518,6 +42634,10 @@
       "id": "pundi-x-purse",
       "name": "Pundi X PURSE"
     },
+    "0xee246aa7e2ecf136466c6fe4808f395861c6a04e": {
+      "id": "punk-panda-messenger",
+      "name": "Punk Panda Messenger"
+    },
     "0x7189b1391f24f9a90cdb0e12ac0b3f489939921c": {
       "id": "punk-shiba",
       "name": "Punk Shiba"
@@ -42662,6 +42782,10 @@
       "id": "quizdrop",
       "name": "QuizDrop"
     },
+    "0x08b450e4a48c04cdf6db2bd4cf24057f7b9563ff": {
+      "id": "quo",
+      "name": "Quoll Finance"
+    },
     "0xf223fb06766ad55272f179e59f1793ed8c27c706": {
       "id": "quota",
       "name": "QUOTA"
@@ -42673,6 +42797,10 @@
     "0x95a1199eba84ac5f19546519e287d43d2f0e1b41": {
       "id": "rabbit-finance",
       "name": "Rabbit Finance"
+    },
+    "0x6be940759586a4f479086d7c606cdb6ba60ce6b3": {
+      "id": "rabbit-halloween",
+      "name": "Rabbit Halloween"
     },
     "0x413fc0343c72d2d4bd676b91cb6e8929ac4e72c0": {
       "id": "rabona",
@@ -42998,6 +43126,10 @@
       "id": "retire-token",
       "name": "Retire"
     },
+    "0x2d220f7f7ea450bae821424a4cdd5ff0b4513970": {
+      "id": "retrocade",
+      "name": "RetroCade"
+    },
     "0xe81fe8bbbea13a0fd5cc0aafb6062631c659ec54": {
       "id": "retromoon",
       "name": "Retromoon"
@@ -43133,6 +43265,10 @@
     "0xd74b782e05aa25c50e7330af541d46e18f36661c": {
       "id": "richquack",
       "name": "Rich Quack"
+    },
+    "0x95a035a4e8738c6f7bf1c2a29996bcd79fcc074f": {
+      "id": "rich-santa",
+      "name": "Rich Santa"
     },
     "0xd676c90a3979e73dffb61f7a8608234781fc9cf8": {
       "id": "ricnatum",
@@ -43430,10 +43566,6 @@
       "id": "rxcgames",
       "name": "RXCGames"
     },
-    "0xe70d287aad130e2cee520e75d12c6efa4f1a377d": {
-      "id": "rxseed-coin",
-      "name": "RxSeed Coin"
-    },
     "0xc6d736123fa8e8a5d85803b5c22799e394245fab": {
       "id": "ryi-unity",
       "name": "RYI Unity"
@@ -43616,7 +43748,7 @@
     },
     "0x62175af6d9b045d8435cdedd9bf542c7bcc56dcc": {
       "id": "safe-token",
-      "name": "Safe Token"
+      "name": "Safe"
     },
     "0xd3b77ac07c963b8cead47000a5208434d9a8734d": {
       "id": "safetrees",
@@ -43654,6 +43786,10 @@
       "id": "safufide",
       "name": "SafuFide"
     },
+    "0xc74cd0042c837ce59210857504ebb0859e06aa22": {
+      "id": "safu-protocol",
+      "name": "SAFU Protocol"
+    },
     "0x84952dd90cdc57170b13d2291a8afcedc8f97c71": {
       "id": "safutitano",
       "name": "SafuTitano"
@@ -43661,10 +43797,6 @@
     "0xe5ba47fd94cb645ba4119222e34fb33f59c7cd90": {
       "id": "safuu",
       "name": "SAFUU"
-    },
-    "0xc74cd0042c837ce59210857504ebb0859e06aa22": {
-      "id": "safuyield-protocol",
-      "name": "SafuYield Protocol"
     },
     "0xa84373988ead7ec5440a1a06792ea52bfdb3b048": {
       "id": "sagaworld",
@@ -43810,6 +43942,10 @@
       "id": "savetheworld",
       "name": "SaveTheWorld"
     },
+    "0x804e66126dad4b0e6d639e75399a557f3f287942": {
+      "id": "sawa-crypto",
+      "name": "SAWA Crypto"
+    },
     "0x5d6cdf1b7f7c35eae688e4c563b6f16eeac2cb6b": {
       "id": "saylor-moon",
       "name": "SaylorMoon"
@@ -43865,6 +44001,10 @@
     "0x2e9f79af51dd1bb56bbb1627fbe4cc90aa8985dd": {
       "id": "scrooge-junior",
       "name": "SCROOGE JUNIOR"
+    },
+    "0xad3e02e83b886543d1171ff446c130d52068c106": {
+      "id": "sculptor",
+      "name": "Sculptor"
     },
     "0x07dbef0f356623168e6279788507bd98dd9d6304": {
       "id": "sdao",
@@ -44190,6 +44330,10 @@
       "id": "shiba-watch",
       "name": "Shiba Watch"
     },
+    "0x27dcc73cbbbe57d006303316dd3e91a0d5d58eea": {
+      "id": "shiba-world-cup",
+      "name": "Shiba World Cup"
+    },
     "0x90bdf238674569684a34f3af8a3f55f08088bc98": {
       "id": "shib-cake",
       "name": "SHIB CAKE"
@@ -44337,6 +44481,10 @@
     "0xbaea100c5f47458e632462520e1e9cb5eec78f49": {
       "id": "shree",
       "name": "SHREE"
+    },
+    "0x1cabcd4b66d86d703866050f6430ea86b66188bb": {
+      "id": "shumi",
+      "name": "SHUMI"
     },
     "0xc26eafc627624badf990f8d30116892ed204db51": {
       "id": "siacashcoin",
@@ -44814,6 +44962,10 @@
       "id": "spaceport-universe",
       "name": "SpacePort Universe"
     },
+    "0x4a24edda87797fe0ac6dfb6f3c40d60753d29cd9": {
+      "id": "spacerobotdao",
+      "name": "SpaceRobotDao"
+    },
     "0x1b23340f5221fbd2e14f36e5b3e5d833d4d215b5": {
       "id": "spaceship-war",
       "name": "Spaceship War"
@@ -44885,10 +45037,6 @@
     "0xbcfe392e778dbb59dcad624f10f7fa8c4a910b1e": {
       "id": "spartan-token",
       "name": "Spartans"
-    },
-    "0x833fbcd654ed2f3a36059102b24f50c58bb21c5a": {
-      "id": "spd-game",
-      "name": "SPD Game"
     },
     "0xd6f28f15a5cafc8d29556393c08177124b88de0d": {
       "id": "spellfire",
@@ -44970,6 +45118,10 @@
       "id": "sporty",
       "name": "Sporty"
     },
+    "0xd7fbb6458845c7622d5343c6fb26aefbc65def90": {
+      "id": "spotrax",
+      "name": "Spotrax"
+    },
     "0xaf0bd10e1b6b995e54f342c78dacd25291e0d3b2": {
       "id": "spring-game",
       "name": "Spring Game"
@@ -45009,10 +45161,6 @@
     "0xdc95937f687f74f8a8a33bb79f5676914ef4b6f2": {
       "id": "squoge-coin",
       "name": "Squoge Coin"
-    },
-    "0x3314d28f86cc1bc7424b66b4b4c23621eba8d925": {
-      "id": "sriracha-inu",
-      "name": "Sriracha Inu"
     },
     "0x1ba8c21c623c843cd4c60438d70e7ad50f363fbb": {
       "id": "srnartgallery",
@@ -46046,6 +46194,10 @@
       "id": "tlabs",
       "name": "TLabs"
     },
+    "0x71b87be9ccbabe4f393e809dfc26df3c9720e0a2": {
+      "id": "t-mac-dao",
+      "name": "T-mac DAO"
+    },
     "0x6c7c87d9868b1db5a0f62d867baa90e0adfa7cfd": {
       "id": "tnns",
       "name": "TNNS"
@@ -46490,10 +46642,6 @@
       "id": "txbit",
       "name": "Txbit"
     },
-    "0x8f23937356e4b345803dbe93d2cc154b0936413e": {
-      "id": "tycheloto",
-      "name": "TycheLoto"
-    },
     "0x4090e535f2e251f5f88518998b18b54d26b3b07c": {
       "id": "typhoon-network",
       "name": "Typhoon Network"
@@ -46505,10 +46653,6 @@
     "0xedd18ee4808a9e75a2e11d1e1a0aa68b12c97140": {
       "id": "uangmarket",
       "name": "UangMarket"
-    },
-    "0x9a08b08eb9bdcd94105dd7ea2afd9bb601884a24": {
-      "id": "ubg-token",
-      "name": "UBG"
     },
     "0xd2ddfba7bb12f6e70c2aab6b6bf9edaef42ed22f": {
       "id": "ubu-finance",
@@ -46718,10 +46862,6 @@
       "id": "uptrend",
       "name": "UpTrend"
     },
-    "0x76ce4184c3e2411df998bdebe2daebefaab9934c": {
-      "id": "urg-university",
-      "name": "URG University"
-    },
     "0xf8759de7f2c8d3f32fd8f8e4c0c02d436a05ddeb": {
       "id": "urubit",
       "name": "Urubit"
@@ -46769,10 +46909,6 @@
     "0x5801d0e1c7d977d78e4890880b8e579eb4943276": {
       "id": "usd-open-dollar",
       "name": "USD Open Dollar"
-    },
-    "0x275194ed61cff8e6ab6f4a5a6ebe63f6de882276": {
-      "id": "usd-reserve",
-      "name": "USD Reserve"
     },
     "0x60d66a5152612f7d550796910d022cb2c77b09de": {
       "id": "useless-2",
@@ -46890,10 +47026,6 @@
       "id": "vegasino",
       "name": "Vegasino"
     },
-    "0xf2da079867785018e6d823dd0ff332f05aafe485": {
-      "id": "vektor",
-      "name": "VEKTOR"
-    },
     "0xe9c803f48dffe50180bd5b01dc04da939e3445fc": {
       "id": "velas",
       "name": "Velas"
@@ -46929,6 +47061,10 @@
     "0x94174f59c009f49b6abc362706fda402616b0427": {
       "id": "venera",
       "name": "Venera"
+    },
+    "0x02c24afd0eb2dd298cd0d72d3be930f4a09d2429": {
+      "id": "veno",
+      "name": "Veno"
     },
     "0x872d068c25511be88c1f5990c53eeffcdf46c9b4": {
       "id": "vent-finance",
@@ -47286,10 +47422,6 @@
       "id": "wall-street-bets-dapp",
       "name": "WallStreetBets DApp"
     },
-    "0x3f203c1403ce39d4d42c4667287a7fb2b1db1066": {
-      "id": "wall-street-capital",
-      "name": "Wall Street Capital"
-    },
     "0xa58950f05fea2277d2608748412bf9f802ea4901": {
       "id": "wall-street-games",
       "name": "Wall Street Games"
@@ -47317,10 +47449,6 @@
     "0x0dd3a140346a94d403ac62385daaf5a86b50e752": {
       "id": "wanda-exchange",
       "name": "Wanda Exchange"
-    },
-    "0x0feadcc3824e7f3c12f40e324a60c23ca51627fc": {
-      "id": "warden",
-      "name": "Warden"
     },
     "0xa9d75cc3405f0450955050c520843f99aff8749d": {
       "id": "warena",
@@ -47385,10 +47513,6 @@
     "0x5fbc8000e7d9f619e43b3fbfce9aba70494a57c3": {
       "id": "web3",
       "name": "Web3"
-    },
-    "0xec3297c5d521feeb058320b05b823a4510d0c06e": {
-      "id": "web3-all-best-ico",
-      "name": "Web3 ALL BEST ICO"
     },
     "0x14f31e8067513a1e9b8604d105582f3760e071a5": {
       "id": "web3-betting",
@@ -47458,6 +47582,10 @@
       "id": "weth",
       "name": "WETH"
     },
+    "0xced59c3249f20ca36fba764bfdd9d94f471b3154": {
+      "id": "wettok-market",
+      "name": "Wettok Market"
+    },
     "0x58f0c2fd4b7b0fbac97c9cc71a5eb810627734c8": {
       "id": "wetux",
       "name": "WETUX"
@@ -47477,10 +47605,6 @@
     "0x28470adc7fef2e29e38632d8c17748f53c04e2e0": {
       "id": "whale-maker-fund",
       "name": "Whale Maker Fund"
-    },
-    "0x0599424e5f9f269ad1409dc5b3ee06b70c595b42": {
-      "id": "whaler",
-      "name": "Whaler"
     },
     "0xdded222297b3d08dafdac8f65eeb799b2674c78f": {
       "id": "whaleswap",
@@ -47569,10 +47693,6 @@
     "0xfa40d8fc324bcdd6bbae0e086de886c571c225d4": {
       "id": "wizardia",
       "name": "Wizardia"
-    },
-    "0x9e327b55d5791bd1b08222f7886d7a82eb11acee": {
-      "id": "wizardium",
-      "name": "Wizardium"
     },
     "0x5066c68cae3b9bdacd6a1a37c90f2d1723559d18": {
       "id": "wizard-token",
@@ -47728,7 +47848,7 @@
     },
     "0x9a27bf99a177fed8d5704ab14041394bd7732f4c": {
       "id": "wrapped-aria",
-      "name": "Wrapped aRIA"
+      "name": "Wrapped aRIA Currency"
     },
     "0xef7c2b756149c4f5a4f6eae1f3613fdbb6bbc568": {
       "id": "wrapped-atromg8",
@@ -47745,10 +47865,6 @@
     "0xe32e106961376a1f5e6b63f7498d72f449d956f9": {
       "id": "wrapped-fire",
       "name": "Wrapped Fire"
-    },
-    "0xcd845749201e07c678563bc5ef7534c85550d496": {
-      "id": "wrapped-fireants",
-      "name": "Wrapped FireAnts"
     },
     "0xa9b1e2542024ac5527aff797469b57457bb12886": {
       "id": "wrapped-knoxfs",
@@ -47870,10 +47986,6 @@
       "id": "xend-finance",
       "name": "Xend Finance"
     },
-    "0x80df74dc3de4477eaee5c3e14348c6bf7fffad87": {
-      "id": "xenoverse-crypto",
-      "name": "Xenoverse Crypto"
-    },
     "0x700d6eca747892fbad8f51cae938a56b84aae207": {
       "id": "xerium",
       "name": "Xerium"
@@ -47969,6 +48081,10 @@
     "0x8f0342bf1063b1d947b0f2cc611301d611ac3487": {
       "id": "xrhodium",
       "name": "xRhodium"
+    },
+    "0x1a591bc628458a76d0553a8b8c57bf32d3ac150f": {
+      "id": "xrpfarm",
+      "name": "XRPFarm"
     },
     "0x7e52a123ed6db6ac872a875552935fbbd2544c86": {
       "id": "xsl-labs",
@@ -48370,6 +48486,10 @@
       "id": "zombie-inu",
       "name": "Zombie Inu"
     },
+    "0xe00748a31f14eb8fdbbaa77e177480bf8dbef48d": {
+      "id": "zombie-runner",
+      "name": "Zombie Runner"
+    },
     "0x49954ad438fa9e27c21aecd35078dd52cddd96be": {
       "id": "zombie-skrat",
       "name": "ZOMBIE SKRAT"
@@ -48389,10 +48509,6 @@
     "0xb2e841894b1c3d638948517f6234c6e06d3b8e1c": {
       "id": "zone-of-avoidance",
       "name": "Zone of Avoidance"
-    },
-    "0xac97796b45f9627e16da9c93e608579ceeb410a4": {
-      "id": "zonoswap",
-      "name": "Zonoswap"
     },
     "0x1c115a56dafc5d74f6ff7a4618dde45b38f0a6b1": {
       "id": "zoobit",
@@ -48635,10 +48751,6 @@
     "0xf4657ab08681214bcb1893aa8e9c7613459250ec": {
       "id": "1617-s-avers",
       "name": "RealT - 1617 S Avers Ave, Chicago, IL 60623"
-    },
-    "0x021bb23a45e9fc824260435e670fc383b7b8cbbb": {
-      "id": "16200-fullerton",
-      "name": "RealT - 16200 Fullerton Ave, Detroit, MI 48227"
     },
     "0x1fdb4015fd5e031c5641752c1e03b973ad5ea168": {
       "id": "17500-evergreen",
@@ -49194,10 +49306,6 @@
       "id": "crystl-finance",
       "name": "Crystl Finance"
     },
-    "0xa46d5775c18837e380efb3d8bf9d315bcd028ab1": {
-      "id": "cyborgswap",
-      "name": "CyborgSwap"
-    },
     "0xf2001b145b43032aaf5ee2884e456ccd805f677d": {
       "id": "dai",
       "name": "Dai"
@@ -49250,6 +49358,10 @@
       "id": "dna-dollar",
       "name": "DNA Dollar"
     },
+    "0x02dccaf514c98451320a9365c5b46c61d3246ff3": {
+      "id": "dogelon-mars",
+      "name": "Dogelon Mars"
+    },
     "0x4a1f7d14d68b8d5c1604ad235f06e57054435ed9": {
       "id": "doken",
       "name": "DoKEN V2"
@@ -49273,14 +49385,6 @@
     "0x387c06f6e8d1f65839fcb9171171abb5f49f8b20": {
       "id": "fairy-finance-unicorn",
       "name": "Fairy Finance UNICORN"
-    },
-    "0x65ab52d4a45ba4b23a50c3630b74c45560f743a0": {
-      "id": "fantastic-protocol-gaea",
-      "name": "Fantastic Protocol GAEA"
-    },
-    "0xa9aa38cb6b1cc8cd5e88bb497c7bae11cd634b22": {
-      "id": "fantastic-protocol-peg-cro",
-      "name": "Fantastic Protocol Peg-CRO"
     },
     "0x39bc1e38c842c60775ce37566d03b41a7a66c782": {
       "id": "ferro",
@@ -49505,6 +49609,10 @@
     "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23": {
       "id": "wrapped-cro",
       "name": "Wrapped CRO"
+    },
+    "0x9315054f01bf8c13ee67c8498af09a1933cbf24c": {
+      "id": "xcrx",
+      "name": "xCRX"
     }
   },
   "smartbch": {
@@ -49800,7 +49908,7 @@
       "id": "kromatika",
       "name": "Kromatika"
     },
-    "0x4518231a8fdf6ac553b9bbd51bbb86825b583263": {
+    "0xa00e3a3511aac35ca78530c85007afcd31753819": {
       "id": "kyber-network-crystal",
       "name": "Kyber Network Crystal"
     },
@@ -49919,6 +50027,10 @@
     "0x8f69ee043d52161fd29137aedf63f5e70cd504d5": {
       "id": "the-doge-nft",
       "name": "The Doge NFT"
+    },
+    "0x5d47baba0d66083c52009271faf3f50dcc01023c": {
+      "id": "unidex",
+      "name": "UniDex"
     },
     "0x6fd9d7ad17242c41f7131d257212c54a0e816691": {
       "id": "uniswap",
@@ -50512,6 +50624,10 @@
       "id": "futureswap",
       "name": "Futureswap"
     },
+    "0x4945970efeec98d393b4b979b9be265a3ae28a8b": {
+      "id": "gmd-protocol",
+      "name": "GMD Protocol"
+    },
     "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a": {
       "id": "gmx",
       "name": "GMX"
@@ -50531,6 +50647,10 @@
     "0x8616e8ea83f048ab9a5ec513c9412dd2993bce3f": {
       "id": "handleusd",
       "name": "handleUSD"
+    },
+    "0x431402e8b9de9aa016c743880e04e517074d8cec": {
+      "id": "hegic",
+      "name": "Hegic"
     },
     "0xde31e75182276738b0c025daa8f80020a4f2fbfe": {
       "id": "honey-pot-beekeepers",
@@ -50580,7 +50700,7 @@
       "id": "kromatika",
       "name": "Kromatika"
     },
-    "0x316772cfec9a3e976fde42c3ba21f5a13aaaff12": {
+    "0xe4dddfe67e7164b0fe14e218d80dc4c08edc01cb": {
       "id": "kyber-network-crystal",
       "name": "Kyber Network Crystal"
     },
@@ -50599,6 +50719,10 @@
     "0x93c15cd7de26f07265f0272e0b831c5d7fab174f": {
       "id": "liquid-finance",
       "name": "Liquid Finance"
+    },
+    "0x289ba1701c2f088cf0faf8b3705246331cb8a839": {
+      "id": "livepeer",
+      "name": "Livepeer"
     },
     "0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe": {
       "id": "loopring",
@@ -50655,6 +50779,10 @@
     "0x8e75dafecf75de7747a05b0891177ba03333a166": {
       "id": "nitrodoge",
       "name": "nitroDOGE"
+    },
+    "0x1fae2a29940015632f2a6ce006dfa7e3225515a7": {
+      "id": "nitrofloki",
+      "name": "NitroFloki"
     },
     "0x4dad357726b41bb8932764340ee9108cc5ad33a0": {
       "id": "nitroshiba",
@@ -51082,7 +51210,7 @@
     },
     "0xa7b303a6e8ba03d6fa3d9e895f935065e4b19f1f": {
       "id": "crystal-palace-fan-token",
-      "name": "Crystal Palace Fan Token"
+      "name": "Crystal Palace FC Fan Token"
     },
     "0x4b436f10911cd3f90b06f52e2a788a0a0dff96de": {
       "id": "davis-cup-fan-token",
@@ -51131,6 +51259,10 @@
     "0x916fb58d0c474314afd399ee50e3528e543e9e9f": {
       "id": "istanbul-basaksehir-fan-token",
       "name": "İstanbul Başakşehir Fan Token"
+    },
+    "0x280e7a6db41213776e6a4429c819867dd2312dad": {
+      "id": "italian-national-football-team-fan-token",
+      "name": "Italian National Football Team Fan Token"
     },
     "0x14a5750b0e54b57d12767b84a326c9fe59472da5": {
       "id": "juventus-fan-token",
@@ -51253,6 +51385,10 @@
     "0xb2c803a0bd2cb8d8e1aa29b961fa703e2de8905d": {
       "id": "afyonspor-fan-token",
       "name": "Afyonspor Fan Token"
+    },
+    "0xc7857e34576b5db79414092ce244c8ecf7805318": {
+      "id": "albedo",
+      "name": "ALBEDO"
     },
     "0x38aa495ffa5ebe2f8f91004922650c29adf12083": {
       "id": "ankaragucu-fan-token",
@@ -51448,10 +51584,6 @@
       "id": "mimatic",
       "name": "MAI"
     },
-    "0x6d8534326415ff9966b387615e576a109ac01ac1": {
-      "id": "mini-metis",
-      "name": "Mini Metis"
-    },
     "0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278": {
       "id": "netswap",
       "name": "Netswap"
@@ -51513,10 +51645,6 @@
     "0xbed6a1bb7f47542218ba1aa002b05d6791867739": {
       "id": "aicon",
       "name": "Aicon"
-    },
-    "0x588c62ed9aa7367d7cd9c2a9aaac77e44fe8221b": {
-      "id": "answer-governance",
-      "name": "Answer Governance"
     },
     "0x07aa7ae19b17579f7237ad72c616fecf4ccc787b": {
       "id": "artube",
@@ -51829,10 +51957,6 @@
     "0xe4f05a66ec68b54a58b17c22107b02e0232cc817": {
       "id": "wrapped-klay",
       "name": "Wrapped KLAY"
-    },
-    "0x07709260f6c431bc2cb1480f523f4f7c639a5155": {
-      "id": "zombie-network-blood",
-      "name": "Zombie Network Blood"
     }
   },
   "moonbeam": {
@@ -51875,6 +51999,10 @@
     "0xa423e7eeb60547d9c7b65005477b63ae7ce67e62": {
       "id": "energyfi",
       "name": "Energyfi"
+    },
+    "0x823d826d3ab6956ba934893f325e7c323faaf6ca": {
+      "id": "hippopotamus",
+      "name": "Hippopotamus"
     },
     "0x8f4dbdf6fddc1c4013b2932c814fa5dd0003443a": {
       "id": "lemon",
@@ -52285,6 +52413,10 @@
     "0xde2578edec4669ba7f41c5d5d2386300bcea4678": {
       "id": "arthswap",
       "name": "ArthSwap"
+    },
+    "0x5271d85ce4241b310c0b34b7c2f1f036686a6d7c": {
+      "id": "astriddao-token",
+      "name": "AstridDAO"
     },
     "0x733ebcc6df85f8266349defd0980f8ced9b45f35": {
       "id": "bai-stablecoin",
@@ -52786,6 +52918,10 @@
       "id": "occamfi",
       "name": "OccamFi"
     },
+    "0xf0c73e6287867baa4f865a17ee711ec989c78ac0": {
+      "id": "occamx",
+      "name": "OccamX"
+    },
     "0x9b7c74aa737fe278795fab2ad62defdbbaedfbca": {
       "id": "ravelin-finance",
       "name": "Ravelin Finance"
@@ -52936,6 +53072,10 @@
       "id": "dogepow",
       "name": "DogePow"
     },
+    "0xfb351555ce949c67a956e8f4a16ecf4a85711e26": {
+      "id": "ethw-id",
+      "name": "ETHW ID"
+    },
     "0x3819f64f282bf135d62168c1e513280daf905e06": {
       "id": "hedron-ethw",
       "name": "Hedron ETHW"
@@ -52960,6 +53100,10 @@
       "id": "pow-doge",
       "name": "PoW Doge"
     },
+    "0x2fdc2aec4bad85a06d87c8248716a5dedd647074": {
+      "id": "power-vault",
+      "name": "Power Vault"
+    },
     "0x681c4d35cee7b2aa44fd1525cdfa042412a2ca61": {
       "id": "powsea",
       "name": "PowSea"
@@ -52971,6 +53115,10 @@
     "0x0d0257d46e4acb26df0e68d48bd253b68a9a0a14": {
       "id": "shibaw-inu",
       "name": "ShibaW Inu"
+    },
+    "0x884c700e63f10dffe9ef3f5f6d246448a07321b7": {
+      "id": "shiwa",
+      "name": "Shiwa"
     },
     "0x5fc51602ce9c329520cb40fd245bfcc786c86e01": {
       "id": "solaris-finance",
@@ -53013,6 +53161,10 @@
     "0xe57425f1598f9b0d6219706b77f4b3da573a3695": {
       "id": "bitcoin-br",
       "name": "Bitcoin BR"
+    },
+    "0x5dd8015cec49f4db01fd228f688bf30337d3e0a9": {
+      "id": "dogelon-mars",
+      "name": "Dogelon Mars"
     },
     "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee": {
       "id": "elk-finance",
@@ -53408,9 +53560,17 @@
       "id": "canaryx",
       "name": "CanaryX"
     },
+    "0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff": {
+      "id": "oracleswap",
+      "name": "OracleSwap"
+    },
     "0xb2987753d1561570f726aa373f48e77e27aa5ff4": {
       "id": "pangolin-songbird",
       "name": "Pangolin Songbird"
+    },
+    "0xf810576a68c3731875bde07404be815b16fc0b4e": {
+      "id": "prophet",
+      "name": "Prophet"
     },
     "0x02f0826ef6ad107cfc861152b32b52fd11bab9ed": {
       "id": "songbird",
@@ -53958,10 +54118,6 @@
     }
   },
   "qtum": {
-    "f2033ede578e17fa6231047265010445bca8cf1c": {
-      "id": "qcash",
-      "name": "Qcash"
-    },
     "54fefdb5b31164f66ddb68becd7bdd864cacd65b": {
       "id": "qiswap",
       "name": "QiSwap"
